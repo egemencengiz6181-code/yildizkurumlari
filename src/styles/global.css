@@ -122,10 +122,11 @@ em {
 
 .split__mask {
   display: inline-block;
-  margin-right: 0.22em;
   overflow: hidden;
   vertical-align: top;
-  padding-bottom: 0.08em;
+  /* İtalik harflerin kuyrukları (g, y, ç) ve yan taşmaları kesilmesin diye pay; negatif margin satır aralığını korur. */
+  padding: 0 0.12em 0.26em;
+  margin: 0 0.1em -0.26em -0.12em;
 }
 .split__word {
   display: inline-block;
