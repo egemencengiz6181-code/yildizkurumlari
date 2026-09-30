@@ -4,6 +4,7 @@ import { Logo, StarMark } from './Brand'
 import { useReveal } from './motion'
 import { BRAND, COURSES, NAV, SCHOOL } from '../data/site'
 import { Arrow, Instagram, Phone } from './Icons'
+import Seo from './Seo'
 
 function Header() {
   const [scrolled, setScrolled] = useState(false)
@@ -157,6 +158,7 @@ export default function Layout() {
 
   return (
     <>
+      <Seo />
       <Header />
       <main>
         <Outlet />

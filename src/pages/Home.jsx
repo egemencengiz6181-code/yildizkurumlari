@@ -24,7 +24,7 @@ function Hero() {
   return (
     <section className="hero">
       <div className="hero__media">
-        <img src="/img/okul/tarabya-bogaz.jpg" alt="Tarabya ve İstanbul Boğazı" fetchpriority="high" />
+        <img src="/img/okul/tarabya-bogaz.jpg" alt="Tarabya ve İstanbul Boğazı" fetchPriority="high" />
       </div>
       <div className="hero__shade" />
       <div className="hero__grain" />

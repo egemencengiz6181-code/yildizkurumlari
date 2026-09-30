@@ -15,3 +15,14 @@ npm run build    # dist/ çıktısı
 - Ön kayıt formu WhatsApp'a yazar: `BRAND.whatsapp` numarasını güncelleyin.
 
 Sayfalar: `/`, `/hakkimizda`, `/okul`, `/kurslar`, `/kurslar/:slug`, `/iletisim`
+
+## SEO
+
+`npm run build` her sayfayı önceden HTML olarak üretir (`scripts/prerender.mjs`): sayfa başlığı, açıklama,
+canonical, Open Graph / Twitter etiketleri, JSON-LD (kurum, okul, kurslar, breadcrumb, SSS), `sitemap.xml`,
+`robots.txt` ve `404.html`.
+
+- Sayfa başlık ve açıklamaları: `src/seo.js`
+- Alan adı: Vercel'de **Settings → Environment Variables** altına `SITE_URL=https://alanadiniz.com` ekleyin.
+  Tanımlı değilse Vercel'in üretim alan adı (`VERCEL_PROJECT_PRODUCTION_URL`) kullanılır.
+- Yayından sonra `https://alanadiniz.com/sitemap.xml` adresini Google Search Console'a gönderin.
