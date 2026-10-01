@@ -19,10 +19,10 @@ export const BRAND = {
 }
 
 export const STATS = [
-  { value: 50, suffix: '', label: 'Yıllık eğitim birikimi', note: 'Yarım asır' },
-  { value: 1, suffix: '', label: 'TED AD akreditasyonlu okul', note: 'Tarabya' },
-  { value: 5, suffix: '', label: 'Kurs merkezi', note: 'İstanbul genelinde' },
-  { value: 94, suffix: '%', label: 'Sınav başarı oranı', note: 'LGS & YKS' },
+  { value: 50, suffix: '', label: 'Yıllık eğitim birikimi', note: 'Yarım asır', to: '/hakkimizda' },
+  { value: 1, suffix: '', label: 'TED AD akreditasyonlu okul', note: 'Tarabya', to: '/okul' },
+  { value: 5, suffix: '', label: 'Kurs merkezi', note: 'İstanbul genelinde', to: '/kurslar' },
+  { value: 94, suffix: '%', label: 'Sınav başarı oranı', note: 'LGS & YKS', to: '/kurslar/tarabya#basarilar' },
 ]
 
 export const SCHOOL = {

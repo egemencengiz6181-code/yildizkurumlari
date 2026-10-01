@@ -7,7 +7,6 @@ import {
   CourseIndex,
   EnrollSection,
   Gallery,
-  Levels,
   Manifesto,
   Method,
   SectionHead,
@@ -18,7 +17,17 @@ import {
 } from '../components/Sections'
 import { BRAND } from '../data/site'
 
-const TICKER = ['Tarabya', 'Şirinevler', 'Sefaköy', 'Halkalı', 'Mimaroba', 'TED AD', 'LGS', 'YKS', 'Sadece Eğitim']
+const TICKER = [
+  ['Tarabya', '/kurslar/tarabya'],
+  ['Şirinevler', '/kurslar/sirinevler'],
+  ['Sefaköy', '/kurslar/sefakoy'],
+  ['Halkalı', '/kurslar/halkali'],
+  ['Mimaroba', '/kurslar/mimaroba'],
+  ['TED AD', '/okul#ted'],
+  ['LGS', '/kurslar'],
+  ['YKS', '/kurslar'],
+  ['Sadece Eğitim', '/hakkimizda'],
+]
 
 function Hero() {
   return (
@@ -58,9 +67,9 @@ function Hero() {
           <span>Sadece Eğitim.</span>
         </div>
         <div className="hero__facts">
-          <span><b>1</b> Okul</span>
-          <span><b>5</b> Kurs</span>
-          <span><b>50</b> Yıl</span>
+          <Link to="/okul"><b>1</b> Okul</Link>
+          <Link to="/kurslar"><b>5</b> Kurs</Link>
+          <Link to="/hakkimizda"><b>50</b> Yıl</Link>
         </div>
         <span className="hero__scroll" aria-hidden="true">
           <span />
@@ -73,16 +82,17 @@ function Hero() {
 function Ticker() {
   const row = [...TICKER, ...TICKER, ...TICKER]
   return (
-    <div className="ticker" aria-hidden="true">
+    <nav className="ticker" aria-label="Kurumlarımız">
       <div className="ticker__track">
-        {row.map((t, i) => (
-          <span key={i} className="ticker__item">
-            {t}
+        {row.map(([label, to], i) => (
+          // Kayan şerit için liste 3 kez tekrarlanır; kopyalar klavye ve ekran okuyucudan gizlenir.
+          <Link key={i} to={to} className="ticker__item" tabIndex={i < TICKER.length ? undefined : -1} aria-hidden={i >= TICKER.length || undefined}>
+            {label}
             <StarMark size={14} />
-          </span>
+          </Link>
         ))}
       </div>
-    </div>
+    </nav>
   )
 }
 
@@ -129,22 +139,6 @@ export default function Home() {
       <Stats />
       <TwoWorlds />
       <Heritage />
-
-      <section className="section section--paper">
-        <div className="container">
-          <div className="split-head">
-            <SectionHead
-              eyebrow="Tarabya Yıldız Schools"
-              title={<>Her öğrenci <em>kendi yıldızını</em> keşfeder.</>}
-              lead="Okul öncesinden ortaokula, çift dilli ve öğrenci merkezli bir öğrenme yolculuğu."
-            />
-            <div data-reveal>
-              <MoreLink to="/okul">Okulu inceleyin</MoreLink>
-            </div>
-          </div>
-          <Levels />
-        </div>
-      </section>
 
       <TedBlock />
 

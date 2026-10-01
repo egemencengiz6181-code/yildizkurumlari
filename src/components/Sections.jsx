@@ -65,13 +65,13 @@ export function Stats({ dark = false }) {
     <section className={`stats ${dark ? 'stats--dark' : ''}`}>
       <div className="container stats__grid">
         {STATS.map((s, i) => (
-          <div key={s.label} className="stat" data-reveal style={{ '--d': `${i * 100}ms` }}>
+          <Link key={s.label} to={s.to} className="stat" data-reveal style={{ '--d': `${i * 100}ms` }}>
             <span className="stat__value">
               <Counter to={s.value} suffix={s.suffix} />
             </span>
             <span className="stat__label">{s.label}</span>
-            <span className="stat__note">{s.note}</span>
-          </div>
+            <span className="stat__note">{s.note} <ArrowUpRight /></span>
+          </Link>
         ))}
       </div>
     </section>
@@ -113,34 +113,6 @@ export function TwoWorlds() {
         </div>
       </div>
     </section>
-  )
-}
-
-/* ── Okul kademeleri ─────────────────────────────────── */
-const LEVEL_IMG = { 'okul-oncesi': '/img/okul/anasinifi.jpg', ilkokul: '/img/okul/ilkokul.jpg', ortaokul: '/img/okul/ortaokul-ders.jpg' }
-
-export function Levels() {
-  return (
-    <div className="levels">
-      {SCHOOL.levels.map((l, i) => (
-        <article key={l.key} className="level" data-reveal style={{ '--d': `${i * 120}ms` }}>
-          <div className="level__media">
-            <img src={LEVEL_IMG[l.key]} alt={l.title} loading="lazy" />
-            <span className="level__en" lang="en">{l.en}</span>
-          </div>
-          <div className="level__body">
-            <span className="level__n">0{i + 1}</span>
-            <h3 className="level__title">{l.title}</h3>
-            <p className="level__text">{l.text}</p>
-            <ul className="level__list">
-              {l.points.map((p) => (
-                <li key={p}><Check /> {p}</li>
-              ))}
-            </ul>
-          </div>
-        </article>
-      ))}
-    </div>
   )
 }
 
@@ -186,8 +158,12 @@ export function TedBlock({ full = false }) {
 
         <div className="ted__partners" data-reveal>
           <span>TED ailesi</span>
-          <img src="/img/logo/ted.png" alt="Türk Eğitim Derneği" />
-          <img src="/img/logo/tedmem.png" alt="TEDMEM" className="ted__wide" />
+          <a href="https://www.ted.org.tr" target="_blank" rel="noreferrer" aria-label="Türk Eğitim Derneği">
+            <img src="/img/logo/ted.png" alt="Türk Eğitim Derneği" />
+          </a>
+          <a href="https://tedmem.org" target="_blank" rel="noreferrer" aria-label="TEDMEM">
+            <img src="/img/logo/tedmem.png" alt="TEDMEM" className="ted__wide" />
+          </a>
         </div>
       </div>
     </section>

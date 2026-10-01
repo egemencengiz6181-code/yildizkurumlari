@@ -26,7 +26,8 @@ export function useReveal() {
 
 export function Counter({ to, suffix = '', duration = 1600 }) {
   const ref = useRef(null)
-  const [val, setVal] = useState(0)
+  // Sunucu HTML'inde (ve JS çalışmadan) gerçek değer görünsün; sayma animasyonu ekrana gelince oynar.
+  const [val, setVal] = useState(to)
   useEffect(() => {
     const el = ref.current
     if (!el) return

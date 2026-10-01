@@ -1,4 +1,5 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
+import { useLocation } from 'react-router-dom'
 import { StarMark } from '../components/Brand'
 import { PageHero } from '../components/Layout'
 import { Arrow, Check, Instagram, Phone, Pin } from '../components/Icons'
@@ -26,14 +27,22 @@ const CAMPUS_IMG = ['/img/okul/laboratuvar.jpg', '/img/okul/ogrenciler-koridor.j
 const LEVEL_IMG = { 'okul-oncesi': '/img/okul/anasinifi.jpg', ilkokul: '/img/okul/ilkokul-sinif.jpg', ortaokul: '/img/okul/ortaokul-ders.jpg' }
 
 function LevelTabs() {
+  const { hash } = useLocation()
   const [active, setActive] = useState(0)
+
+  // /okul#okul-oncesi, #ilkokul, #ortaokul → ilgili sekme açılır (Layout sayfayı o başlığa kaydırır).
+  useEffect(() => {
+    const i = SCHOOL.levels.findIndex((x) => `#${x.key}` === hash)
+    if (i >= 0) setActive(i)
+  }, [hash])
+
   const l = SCHOOL.levels[active]
   const d = LEVEL_DETAIL[l.key]
   return (
     <div className="ltabs">
       <div className="ltabs__nav" role="tablist">
         {SCHOOL.levels.map((x, i) => (
-          <button key={x.key} role="tab" aria-selected={i === active} className={`ltabs__tab ${i === active ? 'is-on' : ''}`} onClick={() => setActive(i)}>
+          <button key={x.key} id={x.key} role="tab" aria-selected={i === active} className={`ltabs__tab ${i === active ? 'is-on' : ''}`} onClick={() => setActive(i)}>
             <span className="ltabs__n">0{i + 1}</span>
             <span className="ltabs__name">{x.title}</span>
             <span className="ltabs__en" lang="en">{x.en}</span>

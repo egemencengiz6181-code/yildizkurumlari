@@ -78,8 +78,8 @@ export function CourseDetail() {
     <>
       <PageHero eyebrow={`Yıldız Eğitim Kurumları · ${c.side}`} title={<>{c.district} <em>Kursu</em></>} lead={c.blurb} image={COURSE_IMG[c.slug]}>
         <div className="phero__chips">
-          <span className="chip chip--light">{c.focus}</span>
-          <span className="chip chip--light">{c.grades}</span>
+          <a href="#programlar" className="chip chip--light chip--link">{c.focus} programları <Arrow /></a>
+          <a href="#programlar" className="chip chip--light chip--link">{c.grades}</a>
         </div>
       </PageHero>
 
@@ -206,7 +206,7 @@ export function CourseDetail() {
 
       {/* Başarılar */}
       {k.refs && (
-        <section className="section">
+        <section className="section" id="basarilar">
           <div className="container">
             <SectionHead eyebrow="Başarı Hikâyeleri" title={<>Öğrencilerimizin gerçek <em>başarıları.</em></>} />
             <Stories refs={k.refs} />

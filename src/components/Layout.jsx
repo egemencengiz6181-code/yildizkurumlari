@@ -95,6 +95,11 @@ function Footer() {
           <div>
             <p className="eyebrow">Okul</p>
             <Link to="/okul" className="footer__name">{SCHOOL.name}</Link>
+            <div className="footer__levels">
+              {SCHOOL.levels.map((l) => (
+                <Link key={l.key} to={`/okul#${l.key}`}>{l.title}</Link>
+              ))}
+            </div>
             <p className="footer__addr">{SCHOOL.address}</p>
             {SCHOOL.phones.map((p) => (
               <a key={p.href} href={`tel:${p.href}`} className="footer__tel">{p.label}</a>
