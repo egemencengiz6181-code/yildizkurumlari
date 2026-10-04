@@ -49,7 +49,7 @@ function Hero() {
           <SplitWords text="geri döndü." className="hero__title-em" delay={180} />
         </h1>
         <p className="hero__lead">
-          {BRAND.heritage}. Bir TED AD okulu ve beş kurs merkeziyle, Yıldız Eğitim Kurumları çatısı altında İstanbul’da yeniden sahnedeyiz.
+          {BRAND.heritage}. Bir TED AD okulu ve beş kurs merkeziyle İstanbul’da eğitimin çıtasını belirliyoruz.
         </p>
         <div className="hero__ctas">
           <Link to="/kurslar" className="btn btn--gold">
@@ -113,9 +113,9 @@ function Heritage() {
             Eğitimde <em>yarım asırlık</em> tecrübe.
           </h2>
           <p className="heritage__text" data-reveal>
-            Yarım asırdır sınıflarda yetiştirdiği nesiller, kurduğu sistem ve öğrencisine duyduğu güvenle bir efsaneye
-            dönüşen eğitim anlayışımız, bugün aynı ruh, aynı tutku ve yeni nesil araçlarla
-            Yıldız Eğitim Kurumları çatısı altında yeniden yola çıkıyor.
+            Yarım asırdır sınıflarda nesiller yetiştiren, kurduğu sistem ve öğrencisine duyduğu güvenle efsaneleşen
+            eğitim anlayışımız; bugün aynı tutku ve yeni nesil araçlarla Yıldız Eğitim Kurumları çatısı altında
+            büyümeye devam ediyor.
           </p>
           <p className="heritage__text" data-reveal>
             Okulumuzda TED’in akademik güvencesi, kurslarımızda güçlü ölçme-değerlendirme sistemimiz. İkisinin ortak paydası

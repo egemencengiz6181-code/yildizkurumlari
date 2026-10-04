@@ -106,7 +106,7 @@ export function TwoWorlds() {
             <div className="world__body">
               <span className="world__tag">Kurslar · LGS & YKS</span>
               <h3 className="world__title">Yıldız Kursları</h3>
-              <p className="world__text">Tarabya, Şirinevler, Sefaköy, Halkalı ve Mimaroba. Nesiller yetiştiren sınav disiplini, yapay zekâ destekli analizle yeniden.</p>
+              <p className="world__text">Tarabya, Şirinevler, Sefaköy, Halkalı ve Mimaroba. Nesiller yetiştiren sınav disiplini, şimdi yapay zekâ destekli analizle daha da güçlü.</p>
               <span className="world__cta">Kursları keşfedin <ArrowUpRight /></span>
             </div>
           </Link>
