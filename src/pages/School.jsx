@@ -4,7 +4,7 @@ import { StarMark } from '../components/Brand'
 import { PageHero } from '../components/Layout'
 import { Arrow, Check, Instagram, Phone, Pin } from '../components/Icons'
 import { Accordion, Faq } from '../components/Detail'
-import { EnrollSection, SectionHead, TedBlock } from '../components/Sections'
+import { Compass, EnrollSection, SectionHead, TedBlock } from '../components/Sections'
 import { SCHOOL } from '../data/site'
 import {
   BILINGUAL_DETAIL,
@@ -129,6 +129,8 @@ export default function School() {
           <LevelTabs />
         </div>
       </section>
+
+      <Compass link={false} />
 
       {/* Öğrenci profili */}
       <section className="section section--ink">

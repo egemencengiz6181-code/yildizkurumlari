@@ -140,7 +140,7 @@ export function getSeo(pathname, origin = '') {
       title: `Biz Kimiz — Öğretmen Kökenli Eğitimciler | ${SITE_NAME}`,
       description:
         'Yıldız Eğitim Kurumları; yönetim kurulu tamamen öğretmen kökenli eğitimcilerden oluşan, tek işi eğitim olan bir çatı marka. Yarım asırlık birikim, bir okul ve beş kurs.',
-      image: '/img/okul/resepsiyon.jpg',
+      image: '/img/okul/ortaokul-ders.jpg',
       ld: [org, breadcrumb(origin, [{ name: 'Biz Kimiz', path: '/hakkimizda' }])],
     }
   } else if (path === '/okul') {

@@ -116,6 +116,59 @@ export function TwoWorlds() {
   )
 }
 
+/* ── Pusula: logodaki yıldızın sekiz kolu ───────────── */
+const COMPASS = [
+  'Akademik Kadro',
+  'Yabancı Dil Yeterliliği',
+  'Sanat ve Spor',
+  'Teknoloji ile Öğrenme',
+  'Kişisel Gelişim ve Psikolojik Destek',
+  'Uluslararası Eğitim Vizyonu',
+  'Etik ve Evrensel Değerler',
+  'Güvenli ve İnovatif Kampüs',
+]
+
+export function Compass({ link = true }) {
+  return (
+    <section className="compass" id="pusula">
+      <div className="container compass__grid">
+        <figure className="compass__poster" data-reveal>
+          <img
+            src="/img/okul/pusula.jpg"
+            alt={`Logomuzdaki yıldız, sadece bir şekil değil, eğitimdeki pusulamız: ${COMPASS.map((c, i) => `${i + 1}. ${c}`).join(', ')}. Tarabya Yıldız Koleji — Her yönüyle geleceğe hazır bir nesil yetiştiriyoruz.`}
+            loading="lazy"
+          />
+        </figure>
+        <div className="compass__body">
+          <p className="eyebrow" data-reveal>Pusulamız</p>
+          <h2 className="compass__title" data-reveal>
+            Logomuzdaki yıldız, sadece bir şekil değil; <em>eğitimdeki pusulamız.</em>
+          </h2>
+          <p className="compass__text" data-reveal>
+            Tarabya Yıldız Koleji’nin sekiz kollu yıldızının her kolu, eğitim anlayışımızın bir yönünü gösterir. Akademik
+            başarıdan değerlere, kampüsten dünyaya açılan vizyona kadar her yönüyle geleceğe hazır bir nesil yetiştiriyoruz.
+          </p>
+          <ol className="compass__list" data-reveal>
+            {COMPASS.map((c, i) => (
+              <li key={c}>
+                <span>{i + 1}</span>
+                {c}
+              </li>
+            ))}
+          </ol>
+          {link && (
+            <div data-reveal>
+              <Link to="/okul" className="more">
+                Tarabya Yıldız Schools’u keşfedin <Arrow />
+              </Link>
+            </div>
+          )}
+        </div>
+      </div>
+    </section>
+  )
+}
+
 /* ── TED AD ───────────────────────────────────────────── */
 export function TedBlock({ full = false }) {
   return (

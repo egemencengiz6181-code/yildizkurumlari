@@ -4,6 +4,7 @@ import { SplitWords } from '../components/motion'
 import { Arrow } from '../components/Icons'
 import { MoreLink } from '../components/Layout'
 import {
+  Compass,
   CourseIndex,
   EnrollSection,
   Gallery,
@@ -139,6 +140,7 @@ export default function Home() {
       <Stats />
       <TwoWorlds />
       <Heritage />
+      <Compass />
 
       <TedBlock />
 

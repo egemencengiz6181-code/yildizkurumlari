@@ -3516,3 +3516,82 @@ em {
 .ted__partners a:hover {
   transform: translateY(-3px);
 }
+
+/* ── Pusula ───────────────────────────────────────── */
+.compass {
+  padding: clamp(90px, 11vw, 160px) 0;
+  background: var(--paper);
+}
+.compass__grid {
+  display: grid;
+  grid-template-columns: 0.85fr 1fr;
+  gap: clamp(40px, 7vw, 110px);
+  align-items: center;
+}
+.compass__poster {
+  margin: 0;
+}
+.compass__poster img {
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius);
+  box-shadow: 0 40px 80px -40px rgba(11, 27, 52, 0.45);
+}
+.compass__title {
+  margin: 0 0 24px;
+  font-family: var(--f-display);
+  font-size: clamp(38px, 4.4vw, 64px);
+  font-weight: 500;
+  line-height: 1.04;
+  letter-spacing: -0.015em;
+}
+.compass__text {
+  margin: 0 0 30px;
+  font-size: 17px;
+  color: var(--muted);
+}
+.compass__list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1px;
+  margin: 0 0 36px;
+  padding: 0;
+  list-style: none;
+  background: var(--line);
+  border: 1px solid var(--line);
+}
+.compass__list li {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 16px 18px;
+  background: var(--cream);
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.3;
+}
+.compass__list span {
+  display: grid;
+  place-items: center;
+  flex: none;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--ink);
+  color: var(--gold-2);
+  font-family: var(--f-display);
+  font-size: 16px;
+}
+@media (max-width: 960px) {
+  .compass__grid {
+    grid-template-columns: 1fr;
+  }
+  .compass__poster {
+    max-width: 520px;
+  }
+}
+@media (max-width: 640px) {
+  .compass__list {
+    grid-template-columns: 1fr;
+  }
+}

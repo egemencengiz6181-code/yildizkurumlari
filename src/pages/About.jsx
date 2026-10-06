@@ -21,7 +21,7 @@ export default function About() {
         eyebrow="Biz Kimiz"
         title={<>Sadece <em>eğitim.</em></>}
         lead="Yıldız Eğitim Kurumları; öğretmen kökenli eğitimcilerin kurduğu, tek işi eğitim olan bir çatı markadır."
-        image="/img/okul/resepsiyon.jpg"
+        image="/img/okul/ortaokul-ders.jpg"
       />
 
       <section className="section section--paper">
