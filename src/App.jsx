@@ -5,6 +5,7 @@ import About from './pages/About'
 import School from './pages/School'
 import { CourseDetail, Courses } from './pages/Courses'
 import Contact from './pages/Contact'
+import Model from './pages/Model'
 
 function NotFound() {
   return (
@@ -26,6 +27,7 @@ export default function App() {
         <Route path="okul" element={<School />} />
         <Route path="kurslar" element={<Courses />} />
         <Route path="kurslar/:slug" element={<CourseDetail />} />
+        <Route path="basari-modeli" element={<Model />} />
         <Route path="iletisim" element={<Contact />} />
         <Route path="*" element={<NotFound />} />
       </Route>

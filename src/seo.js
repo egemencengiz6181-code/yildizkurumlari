@@ -17,7 +17,7 @@ const COURSE_IMAGE = {
 }
 
 /** Prerender edilecek tüm rotalar (sitemap de buradan üretilir). */
-export const ROUTES = ['/', '/hakkimizda', '/okul', '/kurslar', ...COURSES.map((c) => `/kurslar/${c.slug}`), '/iletisim']
+export const ROUTES = ['/', '/hakkimizda', '/okul', '/kurslar', ...COURSES.map((c) => `/kurslar/${c.slug}`), '/basari-modeli', '/iletisim']
 
 const abs = (origin, path) => (origin ? origin.replace(/\/$/, '') + path : path)
 
@@ -174,6 +174,14 @@ export function getSeo(pathname, origin = '') {
           ]),
         ],
       }
+    }
+  } else if (path === '/basari-modeli') {
+    page = {
+      title: `Yıldız Kurs Başarı Modeli — 360, Analiz, Dikkat, Focus, Full, Total | ${SITE_NAME}`,
+      description:
+        'Hazır bulunuşluk sınavından üniversite tercihine sekiz adımlık Yıldız Kurs Başarı Modeli: Focus, Analiz, Dikkat, 360, Full, Total, University ve Global. Öğretmenler için Mega Günü.',
+      image: '/img/model/full.jpg',
+      ld: [org, breadcrumb(origin, [{ name: 'Başarı Modeli', path: '/basari-modeli' }])],
     }
   } else if (path === '/iletisim') {
     page = {

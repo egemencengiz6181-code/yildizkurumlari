@@ -236,5 +236,6 @@ export const NAV = [
   { to: '/hakkimizda', label: 'Biz Kimiz' },
   { to: '/okul', label: 'Okul' },
   { to: '/kurslar', label: 'Kurslar' },
+  { to: '/basari-modeli', label: 'Başarı Modeli' },
   { to: '/iletisim', label: 'İletişim' },
 ]
