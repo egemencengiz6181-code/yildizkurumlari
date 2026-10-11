@@ -27,7 +27,9 @@ export default function About() {
       <section className="section section--paper">
         <div className="container about-intro">
           <div data-reveal>
-            <Logo stacked motto className="about-intro__logo" />
+            <div className="about-intro__logo">
+              <Logo stacked />
+            </div>
           </div>
           <div className="about-intro__text">
             <p className="about-intro__lead" data-reveal>
@@ -70,8 +72,7 @@ export default function About() {
           <SectionHead eyebrow="Marka Mimarisi" title={<>Bir çatı, <em>altı kapı.</em></>} lead="Her kurum kendi kimliğiyle; hepsi aynı ilkeyle." />
           <div className="architecture" data-reveal>
             <div className="architecture__root">
-              <StarMark size={44} />
-              <span>Yıldız Eğitim Kurumları</span>
+              <Logo />
             </div>
             <div className="architecture__branches">
               <Link to="/okul" className="architecture__node architecture__node--school">
@@ -82,7 +83,7 @@ export default function About() {
               </Link>
               {COURSES.map((c) => (
                 <Link to={`/kurslar/${c.slug}`} key={c.slug} className="architecture__node">
-                  <StarMark size={44} className="architecture__mark" />
+                  <StarMark size={44} kind="kurs" className="architecture__mark" />
                   <span>{c.name}</span>
                   <small>{c.focus}</small>
                   <ArrowUpRight />

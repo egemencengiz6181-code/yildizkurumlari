@@ -1,5 +1,5 @@
 import { Link, Navigate, useParams } from 'react-router-dom'
-import { StarMark } from '../components/Brand'
+import { Logo, StarMark } from '../components/Brand'
 import { PageHero } from '../components/Layout'
 import { Arrow, ArrowUpRight, Check, Instagram, Mail, Phone, Pin } from '../components/Icons'
 import { Accordion, Faq, ProgramTabs, Stories } from '../components/Detail'
@@ -21,10 +21,12 @@ export function Courses() {
     <>
       <PageHero
         eyebrow="Yıldız Kursları"
-        title={<>Efsane <em>geri döndü.</em></>}
+        title={<>Disiplin, <em>nesilden nesile.</em></>}
         lead="Tarabya, Şirinevler, Sefaköy, Halkalı ve Mimaroba’da; LGS ve YKS’ye hazırlıkta nesiller yetiştiren sınav disiplini; Yıldız Eğitim Kurumları güvencesiyle."
         image="/img/kurs/etut-salonu.jpg"
-      />
+      >
+        <Logo stacked kind="kurs" className="phero__brand" />
+      </PageHero>
 
       <section className="section">
         <div className="container">
@@ -128,7 +130,7 @@ export function CourseDetail() {
           </div>
 
           <aside className="course__card" data-reveal>
-            <StarMark size={56} className="course__logo" />
+            <Logo stacked kind="kurs" className="course__logo" />
             <h3>{c.name}</h3>
             <ul className="contact-list">
               <li><Pin /> {c.address}</li>

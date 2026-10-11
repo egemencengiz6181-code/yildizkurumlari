@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { Link, NavLink, Outlet, useLocation, useNavigate } from 'react-router-dom'
-import { Logo, StarMark } from './Brand'
+import { Logo, LogoDefs, StarMark } from './Brand'
 import { useReveal } from './motion'
 import { BRAND, COURSES, NAV, SCHOOL } from '../data/site'
 import { Arrow, Instagram, Phone } from './Icons'
@@ -88,8 +88,7 @@ function Footer() {
     <footer className="footer">
       <div className="footer__top container">
         <div className="footer__brand">
-          <Logo stacked motto />
-          <p className="footer__heritage">{BRAND.heritage}</p>
+          <Logo stacked />
         </div>
         <div className="footer__cols">
           <div>
@@ -125,7 +124,7 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div className="footer__giant" aria-hidden="true">Sadece Eğitim</div>
+      <div className="footer__giant" aria-hidden="true">Başarmak sanattır</div>
       <div className="footer__bottom container">
         <span>© {new Date().getFullYear()} {BRAND.name}. Tüm hakları saklıdır.</span>
         <span className="footer__ted">
@@ -197,6 +196,7 @@ export default function Layout() {
   return (
     <>
       <Seo />
+      <LogoDefs />
       <Header />
       <main>
         <Outlet />

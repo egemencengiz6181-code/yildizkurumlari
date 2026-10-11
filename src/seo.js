@@ -131,7 +131,7 @@ export function getSeo(pathname, origin = '') {
 
   if (path === '/') {
     page = {
-      title: `${SITE_NAME} | Sadece Eğitim — Okul, LGS ve YKS Kursları İstanbul`,
+      title: `${SITE_NAME} | Başarmak Sanattır — Okul, LGS ve YKS Kursları İstanbul`,
       description:
         'Eğitimde yarım asırlık tecrübe. TED akreditasyonlu Tarabya Yıldız Schools ve Tarabya, Şirinevler, Sefaköy, Halkalı, Mimaroba LGS & YKS kursları. Öğretmen kökenli yönetim, sadece eğitim.',
       ld: [org],

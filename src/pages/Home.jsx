@@ -27,7 +27,7 @@ const TICKER = [
   ['TED AD', '/okul#ted'],
   ['LGS', '/kurslar'],
   ['YKS', '/kurslar'],
-  ['Sadece Eğitim', '/hakkimizda'],
+  ['Başarmak Sanattır', '/hakkimizda'],
 ]
 
 function Hero() {
@@ -46,8 +46,8 @@ function Hero() {
           Yıldız Eğitim Kurumları · İstanbul
         </p>
         <h1 className="hero__title">
-          <SplitWords text="Efsane" />
-          <SplitWords text="geri döndü." className="hero__title-em" delay={180} />
+          <SplitWords text="Nesillerin" />
+          <SplitWords text="efsanesi." className="hero__title-em" delay={180} />
         </h1>
         <p className="hero__lead">
           {BRAND.heritage}. Bir TED AD okulu ve beş kurs merkeziyle İstanbul’da eğitimin çıtasını belirliyoruz.
@@ -65,7 +65,7 @@ function Hero() {
       <div className="hero__foot container">
         <div className="hero__motto">
           <StarMark size={18} />
-          <span>Sadece Eğitim.</span>
+          <span>{BRAND.motto}.</span>
         </div>
         <div className="hero__facts">
           <Link to="/okul"><b>1</b> Okul</Link>

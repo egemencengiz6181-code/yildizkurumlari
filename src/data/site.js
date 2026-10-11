@@ -6,8 +6,7 @@
 export const BRAND = {
   name: 'Yıldız Eğitim Kurumları',
   short: 'Yıldız',
-  motto: 'Sadece Eğitim',
-  launch: 'Efsane Geri Döndü',
+  motto: 'Başarmak sanattır',
   heritage: 'Eğitimde Yarım Asırlık Tecrübe',
   phone: '0212 286 20 20',
   phoneHref: '+902122862020',
