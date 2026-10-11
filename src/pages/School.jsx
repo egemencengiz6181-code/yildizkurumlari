@@ -155,7 +155,7 @@ export default function School() {
             <img src="/img/okul/anasinifi.jpg" alt="Çift dilli anasınıfı" loading="lazy" />
           </div>
           <div className="bilingual__body" data-reveal>
-            <p className="eyebrow"><span lang="en">Bilingual Education Program</span> · Anasınıfı, 1 ve 5. Sınıflar</p>
+            <p className="eyebrow"><span><span lang="en">Bilingual Education Program</span> · Anasınıfı, 1 ve 5. Sınıflar</span></p>
             <h2 className="bilingual__title">İki dil, <em>tek doğal akış.</em></h2>
             {BILINGUAL_DETAIL.map((t, i) => <p key={i}>{t}</p>)}
             <div className="bilingual__facts">

@@ -2,9 +2,10 @@ import { Link, Navigate, useParams } from 'react-router-dom'
 import { StarMark } from '../components/Brand'
 import { PageHero } from '../components/Layout'
 import { Arrow, ArrowUpRight, Check, Instagram, Mail, Phone, Pin } from '../components/Icons'
-import { Accordion, ProgramTabs, Stories } from '../components/Detail'
+import { Accordion, Faq, ProgramTabs, Stories } from '../components/Detail'
 import { COACHING, COURSE_CONTENT, GUIDANCE } from '../data/courseContent'
-import { CourseIndex, EnrollSection, Method, SectionHead, Testimonials } from '../components/Sections'
+import { COURSE_FAQ } from '../data/courseFaq'
+import { CourseIndex, EnrollSection, Journey, Method, SectionHead, Testimonials } from '../components/Sections'
 import { COURSES } from '../data/site'
 
 export const COURSE_IMG = {
@@ -61,7 +62,26 @@ export function Courses() {
         </div>
       </section>
 
+      <section className="section">
+        <div className="container">
+          <SectionHead eyebrow="Kayıttan sınava" title={<>Dört adımda <em>yol haritası.</em></>} lead="Kapımızdan girdiğiniz ilk günden sınav gününe kadar süreç şeffaf ve planlı ilerler." />
+          <Journey />
+        </div>
+      </section>
+
       <Testimonials />
+
+      <section className="section section--paper">
+        <div className="container faqwrap">
+          <div>
+            <SectionHead eyebrow="Sık Sorulan Sorular" title={<>Merak <em>edilenler.</em></>} lead="Kayıt sürecinden sınıf yapısına, deneme analizinden veli takibine kadar kurslarımızla ilgili temel başlıklar." />
+          </div>
+          <div data-reveal>
+            <Faq items={COURSE_FAQ} />
+          </div>
+        </div>
+      </section>
+
       <EnrollSection defaultUnit={COURSES[0].name} />
     </>
   )

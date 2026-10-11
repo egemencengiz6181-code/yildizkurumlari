@@ -4,6 +4,7 @@
  */
 import { BRAND, COURSES, SCHOOL } from './data/site'
 import { SCHOOL_FAQ } from './data/schoolFaq'
+import { COURSE_FAQ } from './data/courseFaq'
 
 export const SITE_NAME = 'Yıldız Eğitim Kurumları'
 const DEFAULT_IMAGE = '/img/okul/tarabya-bogaz.jpg'
@@ -157,7 +158,7 @@ export function getSeo(pathname, origin = '') {
       description:
         'Tarabya, Şirinevler, Sefaköy, Halkalı ve Mimaroba’da LGS ve YKS hazırlık kursları. VIP sınıflar, yapay zekâ destekli deneme analizi, bireysel rehberlik ve Deneme Kulübü.',
       image: '/img/kurs/etut-salonu.jpg',
-      ld: [org, breadcrumb(origin, [{ name: 'Kurslar', path: '/kurslar' }])],
+      ld: [org, breadcrumb(origin, [{ name: 'Kurslar', path: '/kurslar' }]), faqLd(COURSE_FAQ)],
     }
   } else if (path.startsWith('/kurslar/')) {
     const c = COURSES.find((x) => `/kurslar/${x.slug}` === path)

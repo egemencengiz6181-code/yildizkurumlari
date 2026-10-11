@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { Link, NavLink, Outlet, useLocation } from 'react-router-dom'
+import { Link, NavLink, Outlet, useLocation, useNavigate } from 'react-router-dom'
 import { Logo, StarMark } from './Brand'
 import { useReveal } from './motion'
 import { BRAND, COURSES, NAV, SCHOOL } from '../data/site'
@@ -136,13 +136,46 @@ function Footer() {
   )
 }
 
+const WhatsApp = (p) => (
+  <svg viewBox="0 0 24 24" width={18} height={18} fill="currentColor" aria-hidden="true" {...p}>
+    <path d="M17.5 14.4c-.3-.1-1.7-.8-2-.9-.3-.1-.5-.1-.7.1-.2.3-.8.9-.9 1.1-.2.2-.3.2-.6.1-.3-.1-1.2-.4-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6l.4-.5c.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.4s1 2.8 1.2 3c.1.2 2 3.1 4.9 4.3.7.3 1.2.5 1.7.6.7.2 1.3.2 1.8.1.6-.1 1.7-.7 1.9-1.4.2-.7.2-1.2.2-1.4-.1-.1-.3-.2-.6-.3M12 21.8c-1.8 0-3.5-.5-5-1.4l-.4-.2-3.7 1 1-3.6-.2-.4c-1-1.6-1.5-3.4-1.5-5.2C2.2 6.6 6.6 2.2 12 2.2c2.6 0 5.1 1 6.9 2.9 1.8 1.8 2.9 4.3 2.9 6.9 0 5.4-4.4 9.8-9.8 9.8M20.4 3.6C18.2 1.3 15.2 0 12 0 5.5 0 .1 5.3.1 11.9c0 2.1.5 4.1 1.6 5.9L0 24l6.3-1.7c1.7.9 3.7 1.4 5.7 1.4 6.5 0 11.9-5.3 11.9-11.9 0-3.2-1.2-6.2-3.5-8.2" />
+  </svg>
+)
+
 function FloatingCall() {
   return (
     <a className="fab" href={`https://wa.me/${BRAND.whatsapp}`} target="_blank" rel="noreferrer" aria-label="WhatsApp ile yazın">
-      <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true">
-        <path d="M17.5 14.4c-.3-.1-1.7-.8-2-.9-.3-.1-.5-.1-.7.1-.2.3-.8.9-.9 1.1-.2.2-.3.2-.6.1-.3-.1-1.2-.4-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6l.4-.5c.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.4s1 2.8 1.2 3c.1.2 2 3.1 4.9 4.3.7.3 1.2.5 1.7.6.7.2 1.3.2 1.8.1.6-.1 1.7-.7 1.9-1.4.2-.7.2-1.2.2-1.4-.1-.1-.3-.2-.6-.3M12 21.8c-1.8 0-3.5-.5-5-1.4l-.4-.2-3.7 1 1-3.6-.2-.4c-1-1.6-1.5-3.4-1.5-5.2C2.2 6.6 6.6 2.2 12 2.2c2.6 0 5.1 1 6.9 2.9 1.8 1.8 2.9 4.3 2.9 6.9 0 5.4-4.4 9.8-9.8 9.8M20.4 3.6C18.2 1.3 15.2 0 12 0 5.5 0 .1 5.3.1 11.9c0 2.1.5 4.1 1.6 5.9L0 24l6.3-1.7c1.7.9 3.7 1.4 5.7 1.4 6.5 0 11.9-5.3 11.9-11.9 0-3.2-1.2-6.2-3.5-8.2" />
-      </svg>
+      <WhatsApp width={22} height={22} />
     </a>
+  )
+}
+
+/** Mobilde ekranın altında sabit: Ara · WhatsApp · Ön Kayıt. Kurs sayfasında o kursun numarası aranır. */
+function MobileBar() {
+  const { pathname } = useLocation()
+  const navigate = useNavigate()
+  const course = COURSES.find((c) => pathname === `/kurslar/${c.slug}`)
+  const phone = course ? course.phones[0].href : BRAND.phoneHref
+
+  const enroll = (e) => {
+    e.preventDefault()
+    const el = document.getElementById('on-kayit')
+    if (el) el.scrollIntoView({ behavior: 'smooth' })
+    else navigate('/iletisim#on-kayit')
+  }
+
+  return (
+    <nav className="mbar" aria-label="Hızlı iletişim">
+      <a href={`tel:${phone}`} className="mbar__item">
+        <Phone width={18} height={18} /> Ara
+      </a>
+      <a href={`https://wa.me/${BRAND.whatsapp}`} target="_blank" rel="noreferrer" className="mbar__item">
+        <WhatsApp /> WhatsApp
+      </a>
+      <a href="/iletisim#on-kayit" onClick={enroll} className="mbar__item mbar__item--gold">
+        Ön Kayıt <Arrow />
+      </a>
+    </nav>
   )
 }
 
@@ -170,6 +203,7 @@ export default function Layout() {
       </main>
       <Footer />
       <FloatingCall />
+      <MobileBar />
     </>
   )
 }

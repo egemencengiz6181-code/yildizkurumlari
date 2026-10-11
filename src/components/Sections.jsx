@@ -4,6 +4,7 @@ import { StarMark } from './Brand'
 import { Counter } from './motion'
 import { Arrow, ArrowUpRight, Check } from './Icons'
 import { BRAND, COURSE_METHOD, COURSES, SCHOOL, STATS, TED, TESTIMONIALS } from '../data/site'
+import { COURSE_JOURNEY } from '../data/courseFaq'
 
 export function SectionHead({ eyebrow, title, lead, light = false, align = 'left' }) {
   return (
@@ -260,6 +261,21 @@ export function Method() {
   )
 }
 
+/* ── Kayıt yolculuğu ──────────────────────────────────── */
+export function Journey() {
+  return (
+    <ol className="journey">
+      {COURSE_JOURNEY.map((j, i) => (
+        <li key={j.title} className="journey__step" data-reveal style={{ '--d': `${i * 100}ms` }}>
+          <span className="journey__n">0{i + 1}</span>
+          <h3>{j.title}</h3>
+          <p>{j.text}</p>
+        </li>
+      ))}
+    </ol>
+  )
+}
+
 /* ── Yorumlar ────────────────────────────────────────── */
 export function Testimonials({ items = TESTIMONIALS, title = 'Onların başarısı, bizim motivasyonumuz' }) {
   const [i, setI] = useState(0)
@@ -349,6 +365,11 @@ export function EnrollForm({ defaultUnit = '' }) {
         </div>
       ) : (
         <>
+          <ol className="enroll__steps" aria-label="Kayıt süreci">
+            <li className="is-on"><b>1</b> Ön kayıt</li>
+            <li><b>2</b> Görüşme</li>
+            <li><b>3</b> Kesin kayıt</li>
+          </ol>
           <div className="enroll__row">
             <label className="field">
               <span>Ad Soyad</span>
@@ -380,7 +401,7 @@ export function EnrollForm({ defaultUnit = '' }) {
             <textarea name="note" rows="3" placeholder="Merak ettiklerinizi yazın" />
           </label>
           <div className="enroll__foot">
-            <p className="enroll__kvkk">Gönder’e tıkladığınızda talebiniz WhatsApp üzerinden eğitim danışmanımıza iletilir.</p>
+            <p className="enroll__kvkk">Bu form bir ön kayıt talebidir; kesin kayıt, eğitim danışmanımızla yapacağınız görüşmenin ardından tamamlanır. Gönder’e tıkladığınızda talebiniz WhatsApp üzerinden iletilir.</p>
             <button className="btn btn--gold" type="submit">
               Ön Kayıt Talebi Gönder <Arrow />
             </button>
