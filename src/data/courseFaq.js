@@ -24,7 +24,7 @@ export const COURSE_JOURNEY = [
 export const COURSE_FAQ = [
   {
     q: 'Hangi sınıf düzeyleri için programınız var?',
-    a: 'Kurslarımızda 1. sınıftan 12. sınıfa, mezun ve açık lise öğrencilerine kadar LGS ve YKS hazırlık programları bulunur. Kademeler kursa göre değişir; örneğin Halkalı Kursu 5–8. sınıf LGS programlarına odaklanır. Size en yakın kursun programlarını kurs sayfasında görebilirsiniz.',
+    a: 'Kurslarımızda 1. sınıftan 12. sınıfa, mezun ve açık lise öğrencilerine kadar LGS ve YKS hazırlık programları bulunur. Kademeler kursa göre değişir; örneğin Yıldız Kurs Halkalı 5–8. sınıf LGS programlarına odaklanır. Size en yakın kursun programlarını kurs sayfasında görebilirsiniz.',
   },
   {
     q: 'Kayıt süreci nasıl işliyor?',

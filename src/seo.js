@@ -90,7 +90,7 @@ function courseLd(origin, c) {
     '@context': 'https://schema.org',
     '@type': 'EducationalOrganization',
     '@id': abs(origin, `/kurslar/${c.slug}#course`),
-    name: `${SITE_NAME} ${c.name}`,
+    name: c.name,
     description: c.blurb,
     url: abs(origin, `/kurslar/${c.slug}`),
     image: abs(origin, COURSE_IMAGE[c.slug]),
@@ -133,14 +133,14 @@ export function getSeo(pathname, origin = '') {
     page = {
       title: `${SITE_NAME} | Başarmak Sanattır — Okul, LGS ve YKS Kursları İstanbul`,
       description:
-        'Eğitimde yarım asırlık tecrübe. TED akreditasyonlu Tarabya Yıldız Schools ve Tarabya, Şirinevler, Sefaköy, Halkalı, Mimaroba LGS & YKS kursları. Öğretmen kökenli yönetim, sadece eğitim.',
+        'Eğitimde yarım asırlık tecrübe. TED Akreditasyon ve Danışmanlık (TED AD) kapsamındaki Tarabya Yıldız Schools ve Yıldız Kurs Tarabya, Şirinevler, Sefaköy, Halkalı, Mimaroba şubeleri. Öğretmen kökenli yönetim.',
       ld: [org],
     }
   } else if (path === '/hakkimizda') {
     page = {
       title: `Biz Kimiz — Öğretmen Kökenli Eğitimciler | ${SITE_NAME}`,
       description:
-        'Yıldız Eğitim Kurumları; yönetim kurulu tamamen öğretmen kökenli eğitimcilerden oluşan, tek işi eğitim olan bir çatı marka. Yarım asırlık birikim, bir okul ve beş kurs.',
+        'Yıldız Eğitim Kurumları; yönetim kurulu tamamen öğretmen kökenli eğitimcilerden oluşan çatı marka. Yarım asırlık birikim, bir okul ve beş Yıldız Kurs şubesi.',
       image: '/img/okul/ortaokul-ders.jpg',
       ld: [org, breadcrumb(origin, [{ name: 'Biz Kimiz', path: '/hakkimizda' }])],
     }
@@ -148,13 +148,13 @@ export function getSeo(pathname, origin = '') {
     page = {
       title: `Tarabya Yıldız Schools — TED AD Özel Okul Sarıyer | ${SITE_NAME}`,
       description:
-        'Tarabya Yıldız Schools: TED akreditasyon ve danışmanlığında okul öncesi, ilkokul ve ortaokul. Çift dilli eğitim, 18 kişilik sınıflar, yarı olimpik havuz, %100’e varan başarı bursu.',
+        'Tarabya Yıldız Schools: TED Akreditasyon ve Danışmanlık (TED AD) kapsamında okul öncesi, ilkokul ve ortaokul. Çift dilli eğitim, 18 kişilik sınıflar, yarı olimpik havuz, %100’e varan başarı bursu.',
       image: '/img/okul/bina.jpg',
       ld: [schoolLd(origin), breadcrumb(origin, [{ name: 'Okul', path: '/okul' }]), faqLd(SCHOOL_FAQ)],
     }
   } else if (path === '/kurslar') {
     page = {
-      title: `LGS ve YKS Hazırlık Kursları İstanbul — 5 Lokasyon | ${SITE_NAME}`,
+      title: `Yıldız Kurs — LGS ve YKS Hazırlık Kursları İstanbul, 5 Şube | ${SITE_NAME}`,
       description:
         'Tarabya, Şirinevler, Sefaköy, Halkalı ve Mimaroba’da LGS ve YKS hazırlık kursları. VIP sınıflar, yapay zekâ destekli deneme analizi, bireysel rehberlik ve Deneme Kulübü.',
       image: '/img/kurs/etut-salonu.jpg',
@@ -164,14 +164,14 @@ export function getSeo(pathname, origin = '') {
     const c = COURSES.find((x) => `/kurslar/${x.slug}` === path)
     if (c) {
       page = {
-        title: `${c.district} ${c.focus} Kursu (${c.county}) | ${SITE_NAME}`,
-        description: `${c.district} ${c.focus} hazırlık kursu: ${c.grades}. ${c.blurb} ${c.address}. Tel: ${c.phones[0].label}.`,
+        title: `${c.name} — ${c.district} ${c.focus} Kursu (${c.county}) | ${SITE_NAME}`,
+        description: `${c.name}, ${c.district} ${c.focus} hazırlık kursu: ${c.grades}. ${c.blurb} ${c.address}. Tel: ${c.phones[0].label}.`,
         image: COURSE_IMAGE[c.slug],
         ld: [
           courseLd(origin, c),
           breadcrumb(origin, [
             { name: 'Kurslar', path: '/kurslar' },
-            { name: `${c.district} Kursu`, path },
+            { name: c.name, path },
           ]),
         ],
       }

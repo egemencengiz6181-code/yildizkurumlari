@@ -1,9 +1,9 @@
 /** Kaynak: tarabyayildiz.k12.tr/sss */
 export const SCHOOL_FAQ = [
   {
-    "q": "Tarabya Yıldız Okulları’nın eğitim kalitesini belirleyen temel unsurlar nelerdir?",
+    "q": "Tarabya Yıldız Schools’un eğitim kalitesini belirleyen temel unsurlar nelerdir?",
     "a": [
-      "Tarabya Yıldız Okulları, Türk Eğitim Derneği (TED) akreditasyonu ve danışmanlığı kapsamında faaliyet göstermektedir. Eğitim programlarımız, müfredat yapımız ve öğretmen seçme süreçlerimiz TED standartlarına uygun olarak planlanmakta ve düzenli denetimlerle sürdürülebilir kalite güvence altına alınmaktadır.",
+      "Tarabya Yıldız Schools, Türk Eğitim Derneği (TED) akreditasyonu ve danışmanlığı kapsamında faaliyet göstermektedir. Eğitim programlarımız, müfredat yapımız ve öğretmen seçme süreçlerimiz TED standartlarına uygun olarak planlanmakta ve düzenli denetimlerle sürdürülebilir kalite güvence altına alınmaktadır.",
       "Bu yapı, öğrencilerimize çağdaş, bilimsel ve uluslararası ölçütlerle uyumlu bir eğitim ortamı sunmamızı sağlar."
     ]
   },
@@ -25,7 +25,7 @@ export const SCHOOL_FAQ = [
   {
     "q": "Okul kültürü ve öğrenci gelişimine yaklaşımınız nedir?",
     "a": [
-      "Tarabya Yıldız Okulları’nda her öğrencinin biricik olduğuna inanılır. Öğrencilerimize hem kendi haklarını hem de başkalarının haklarını bilmeyi ve bu haklara saygı duymayı öğreten bir eğitim ortamı sunulur.",
+      "Tarabya Yıldız Schools’ta her öğrencinin biricik olduğuna inanılır. Öğrencilerimize hem kendi haklarını hem de başkalarının haklarını bilmeyi ve bu haklara saygı duymayı öğreten bir eğitim ortamı sunulur.",
       "Okul kültürümüz sevgi, saygı ve sorumluluk temelli olup, tüm süreçler kurumsal politikalar çerçevesinde yürütülür. Veliler eğitim sürecinin önemli paydaşlarıdır ve katılımcı bir anlayışla sürece dahil edilirler. Okul yönetimi ise profesyonel eğitim politikaları doğrultusunda yürütülür.",
       "Okulumuzda akran zorbalığına ve veli zorbalığına kesinlikle müsamaha gösterilmez. Güvenli, adil ve destekleyici bir öğrenme ortamı temel önceliğimizdir."
     ]
@@ -60,19 +60,19 @@ export const SCHOOL_FAQ = [
     ]
   },
   {
-    "q": "LGS hazırlık sürecinde Tarabya Yıldız Koleji’nin yaklaşımı nedir?",
+    "q": "LGS hazırlık sürecinde Tarabya Yıldız Schools’un yaklaşımı nedir?",
     "a": [
-      "Tarabya Yıldız Koleji, sınav hazırlığı alanında yarım asırlık birikime sahip Yıldız Eğitim Kurumları’nın bünyesinde yer almaktadır. Aynı çatı altında İstanbul’un beş noktasında LGS ve YKS hazırlık kurslarımız bulunmaktadır.",
+      "Tarabya Yıldız Schools, sınav hazırlığı alanında yarım asırlık birikime sahip Yıldız Eğitim Kurumları’nın bünyesinde yer almaktadır. Aynı çatı altında İstanbul’un beş noktasında LGS ve YKS hazırlık kurslarımız bulunmaktadır.",
       "Kurumumuzun yönetim kurulu tamamen öğretmen kökenli eğitimcilerden oluşmakta olup, temel uzmanlık alanımız sınav hazırlığıdır. Sınav hazırlığından gelen güçlü akademik birikim ve saha deneyimi doğrudan okul modelimize entegre edilmiştir.",
       "Öğrencilerimiz 5. sınıftan itibaren planlı ve kademeli bir LGS hazırlık programına alınır. Bu sistem sayesinde öğrenciler, dışarıdan ek bir kurs desteğine ihtiyaç duymadan, okul bünyesinde bütüncül ve profesyonel bir sınav hazırlık süreci yürütürler.",
       "Kurumlarımız, bugüne kadar Türkiye’nin seçkin lise ve üniversitelerine çok sayıda öğrenci yerleştirmiş köklü bir eğitim geleneğini temsil etmektedir. Bu birikim, öğrencilerimizin akademik hedeflerine güvenli ve sürdürülebilir bir şekilde ilerlemelerini sağlar."
     ]
   },
   {
-    "q": "Tarabya Yıldız Koleji mezunlarının hedefi yalnızca LGS ve yurtiçi eğitim midir?",
+    "q": "Tarabya Yıldız Schools mezunlarının hedefi yalnızca LGS ve yurtiçi eğitim midir?",
     "a": [
-      "Hayır. Tarabya Yıldız Koleji’nde hedefimiz yalnızca ulusal sınav başarısı değildir. TED akreditasyonu sayesinde öğrencilerimize uluslararası standartlarda bir eğitim sunarken, onları çok yönlü düşünebilen ve küresel bakış açısına sahip bireyler olarak yetiştiriyoruz.",
-      "Ayrıca Tarabya Yıldız Koleji, Türkiye’nin önde gelen uluslararası okullarından British International School İstanbul’un kurucusu olduğu BIS Okulları ile stratejik bir iş birliği yürütmektedir.",
+      "Hayır. Tarabya Yıldız Schools’ta hedefimiz yalnızca ulusal sınav başarısı değildir. TED akreditasyonu sayesinde öğrencilerimize uluslararası standartlarda bir eğitim sunarken, onları çok yönlü düşünebilen ve küresel bakış açısına sahip bireyler olarak yetiştiriyoruz.",
+      "Ayrıca Tarabya Yıldız Schools, Türkiye’nin önde gelen uluslararası okullarından British International School İstanbul’un kurucusu olduğu BIS Okulları ile stratejik bir iş birliği yürütmektedir.",
       "Bu özel proje kapsamında, Tarabya Yıldız’dan mezun olan öğrenciler belirli akademik kriterler ve kontenjanlar dahilinde Zekeriyaköy BIS High School’da eğitim görme fırsatı elde edebilirler. Bu geçiş sürecinde öğrencilere çeşitli avantajlar ve indirim olanakları sunulmaktadır.",
       "Bu yapı sayesinde yurtdışı eğitim hedefi olan öğrencilerimiz erken yaşlardan itibaren doğru akademik rehberlik alır. Her öğrenci için uzun vadeli bir eğitim yol haritası oluşturulur ve öğrencinin gelişimi lise ve üniversite sürecine kadar bütüncül biçimde takip edilir."
     ]
@@ -80,7 +80,7 @@ export const SCHOOL_FAQ = [
   {
     "q": "Ders dışı etkinlikler ve atölyeler nelerdir?",
     "a": [
-      "Tarabya Yıldız Koleji’nde akademik programın yanında öğrencilerin sanatsal, sportif ve zihinsel gelişimini destekleyen kapsamlı bir ders dışı etkinlik programı uygulanmaktadır.",
+      "Tarabya Yıldız Schools’ta akademik programın yanında öğrencilerin sanatsal, sportif ve zihinsel gelişimini destekleyen kapsamlı bir ders dışı etkinlik programı uygulanmaktadır.",
       "Resim, müzik, çocuk yogası, English Speaking Activities (debate ve speaking club), sinema analiz atölyesi, zarafet ve görgü kuralları atölyesi, satranç, futbol, voleybol, yüzme ve robotik kodlama gibi çalışmalarla öğrencilerin çok yönlü gelişimi hedeflenir.",
       "Bu etkinliklerin amacı, öğrencilerin yaratıcılıklarını geliştirmek, sosyal becerilerini güçlendirmek ve teknolojiyi sanat ve sporla bütünleştirerek üretken bireyler yetiştirmektir."
     ]

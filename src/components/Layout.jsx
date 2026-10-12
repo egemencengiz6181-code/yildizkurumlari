@@ -128,7 +128,7 @@ function Footer() {
       <div className="footer__bottom container">
         <span>© {new Date().getFullYear()} {BRAND.name}. Tüm hakları saklıdır.</span>
         <span className="footer__ted">
-          <img src="/img/logo/ted.png" alt="" /> Tarabya Yıldız Schools, TED Akreditasyon ve Danışmanlığı ile.
+          <img src="/img/logo/ted.png" alt="" /> Tarabya Yıldız Schools, TED Akreditasyon ve Danışmanlık (TED AD) kapsamındadır.
         </span>
       </div>
     </footer>

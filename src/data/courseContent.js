@@ -10,12 +10,12 @@ export const COURSE_CONTENT = {
       "tagline": "Tarabya'nın köklü eğitim yuvası.",
       "heading": "Tarabya'da Eğitim",
       "text": [
-        "Yıldız Eğitim Kurumları Tarabya, Sarıyer'deki öğrencilere kaliteli LGS ve YKS hazırlık eğitimi sağlamak amacıyla kurulmuştur. Yıllar içinde binlerce öğrencimizi hedef liselerine ve üniversitelerine ulaştırdık."
+        "Yıldız Kurs Tarabya, Sarıyer'deki öğrencilere kaliteli LGS ve YKS hazırlık eğitimi sağlamak amacıyla kurulmuştur. Yıllar içinde binlerce öğrencimizi hedef liselerine ve üniversitelerine ulaştırdık."
       ],
       "vision": "Tarabya ve çevresindeki öğrencilerin eğitime en kolay ve kaliteli biçimde erişebildiği güvenilir bir eğitim yuvası olmak.",
       "mission": "Her öğrencinin potansiyelini keşfetmesine ve akademik hedeflerine ulaşmasına destek olmak. Kaliteli eğitim, bireysel takip ve güçlü motivasyonla fark yaratmak."
     },
-    "why": "Yıldız Eğitim Kurumları Tarabya, 6. sınıftan mezunlara kadar LGS ve YKS'de hedef okullara ulaşmak için deneyimli öğretmen kadrosu ve zengin eğitim materyalleriyle akademik seviyeyi yükseltmeye odaklanır. Sunduğumuz programlar öğrencilerin yalnızca teorik bilgi değil, aynı zamanda pratik becerilerini de geliştirerek sınavlarda yüksek başarı göstermelerini sağlar.",
+    "why": "Yıldız Kurs Tarabya, 6. sınıftan mezunlara kadar LGS ve YKS'de hedef okullara ulaşmak için deneyimli öğretmen kadrosu ve zengin eğitim materyalleriyle akademik seviyeyi yükseltmeye odaklanır. Sunduğumuz programlar öğrencilerin yalnızca teorik bilgi değil, aynı zamanda pratik becerilerini de geliştirerek sınavlarda yüksek başarı göstermelerini sağlar.",
     "zeroError": "Öğrencilerimize özel olarak hazırladığımız sıfır hata kitapçıkları, denemelerde sık yapılan hataları içeren sorular barındırır. Bu kitapçıklar, öğrencilerimizin zayıf olduğu konularda daha fazla çalışma fırsatı sunar. Kişiye özel kitaplar ise denemelerde sık yapılan hataların yapay zeka ile analiz edilerek hazırlanmış benzer sorularını içerir.",
     "programs": [
       {
@@ -465,7 +465,7 @@ export const COURSE_CONTENT = {
       {
         "key": "mezun",
         "title": "Mezun",
-        "tagline": "Yeniden başlamak değil, daha güçlü devam etmektir.",
+        "tagline": "Bir yıl daha hazırlanmak, hedefe daha güçlü yürümektir.",
         "scope": [
           "Seviyelere göre sınıf",
           "Salı-Çarşamba-Perşembe 6 ders",
@@ -632,7 +632,7 @@ export const COURSE_CONTENT = {
         "Bireysel Öğrenci Takibi",
         "Küçük Grup Dersleri",
         "Deneyimli Öğretmenler",
-        "%98 Hedef Lise Başarısı",
+        "Seviye Belirleme Sınavı",
         "Haftalık LGS Denemesi",
         "Yapay Zeka Destekli Analiz",
         "Rehberlik & Koçluk"
@@ -686,12 +686,12 @@ export const COURSE_CONTENT = {
       "tagline": "Şirinevler'in köklü eğitim yuvası.",
       "heading": "Şirinevler'de YKS Eğitimi",
       "text": [
-        "Yıldız Eğitim Kurumları Şirinevler, bölgedeki öğrencilere kaliteli YKS hazırlık eğitimi sağlamak amacıyla kurulmuştur. Yıllar içinde binlerce öğrencimizi hedef üniversitelerine ulaştırdık."
+        "Yıldız Kurs Şirinevler, bölgedeki öğrencilere kaliteli YKS hazırlık eğitimi sağlamak amacıyla kurulmuştur. Yıllar içinde binlerce öğrencimizi hedef üniversitelerine ulaştırdık."
       ],
       "vision": "Şirinevler ve çevresindeki öğrencilerin eğitime en kolay ve kaliteli biçimde erişebildiği güvenilir bir eğitim yuvası olmak.",
       "mission": "Her öğrencinin potansiyelini keşfetmesine ve akademik hedeflerine ulaşmasına destek olmak. Kaliteli eğitim, bireysel takip ve güçlü motivasyonla fark yaratmak."
     },
-    "why": "Yıldız Eğitim Kurumları Şirinevler, 9. sınıftan mezun seviyesine kadar öğrencilerin YKS’de hedef üniversitelerine ulaşmalarını sağlamak için deneyimli öğretmen kadrosu ve zengin eğitim materyalleriyle akademik seviyelerini yükseltmeye odaklanır. Sunduğumuz programlar öğrencilerin yalnızca teorik bilgi değil, aynı zamanda pratik becerilerini de geliştirerek sınavlarda yüksek başarı göstermelerini sağlar.",
+    "why": "Yıldız Kurs Şirinevler, 9. sınıftan mezun seviyesine kadar öğrencilerin YKS’de hedef üniversitelerine ulaşmalarını sağlamak için deneyimli öğretmen kadrosu ve zengin eğitim materyalleriyle akademik seviyelerini yükseltmeye odaklanır. Sunduğumuz programlar öğrencilerin yalnızca teorik bilgi değil, aynı zamanda pratik becerilerini de geliştirerek sınavlarda yüksek başarı göstermelerini sağlar.",
     "zeroError": "Öğrencilerimize özel olarak hazırladığımız sıfır hata kitapçıkları, denemelerde sık yapılan hataları içeren sorular barındırır. Bu kitapçıklar, öğrencilerimizin zayıf olduğu konularda daha fazla çalışma fırsatı sunar. Kişiye özel kitaplar ise denemelerde sık yapılan hataların yapay zeka ile analiz edilerek hazırlanmış benzer sorularını içerir.",
     "programs": [
       {
@@ -871,7 +871,7 @@ export const COURSE_CONTENT = {
       {
         "key": "mezun",
         "title": "Mezun",
-        "tagline": "YKS'ye bir yıl daha hazırlanmak yeniden başlamak değil, daha güçlü devam etmektir.",
+        "tagline": "YKS'ye bir yıl daha hazırlanmak, hedefe daha güçlü yürümektir.",
         "scope": [
           "Birebir soru çözümü",
           "Kunduz programı",
@@ -906,7 +906,7 @@ export const COURSE_CONTENT = {
       {
         "key": "mezun-vip",
         "title": "Mezun VIP",
-        "tagline": "YKS'ye bir yıl daha hazırlanmak yeniden başlamak değil, daha güçlü devam etmektir.",
+        "tagline": "YKS'ye bir yıl daha hazırlanmak, hedefe daha güçlü yürümektir.",
         "scope": [
           "Küçük sınıf (8-10 öğrenci)",
           "20 ders saati/hafta",
@@ -1097,7 +1097,7 @@ export const COURSE_CONTENT = {
         "Bireysel Öğrenci Takibi",
         "Küçük Grup Dersleri",
         "Deneyimli Öğretmenler",
-        "%95 Üniversite Yerleşme",
+        "Seviye Belirleme Sınavı",
         "Haftalık YKS Denemesi",
         "Yapay Zeka Destekli Analiz",
         "Rehberlik & Koçluk"
@@ -1276,12 +1276,12 @@ export const COURSE_CONTENT = {
       "tagline": "Sefaköy'ün köklü eğitim yuvası.",
       "heading": "Sefaköy'de LGS ve YKS Eğitimi",
       "text": [
-        "Yıldız Eğitim Kurumları Sefaköy; Okul ve ödev destekli eğitim modeliyle, LGS'de ve YKS'de hedef lise ve üniversitelere ulaşmalarını sağlayan yenilikçi bir vizyonla hizmet vermektedir. Deneyimli öğretmen kadrosu ve zengin eğitim materyalleriyle her öğrencinin akademik seviyesini yükseltmeye odaklanırız."
+        "Yıldız Kurs Sefaköy; Okul ve ödev destekli eğitim modeliyle, LGS'de ve YKS'de hedef lise ve üniversitelere ulaşmalarını sağlayan yenilikçi bir vizyonla hizmet vermektedir. Deneyimli öğretmen kadrosu ve zengin eğitim materyalleriyle her öğrencinin akademik seviyesini yükseltmeye odaklanırız."
       ],
       "vision": "Sefaköy ve çevresindeki öğrencilerin eğitime en kolay ve kaliteli biçimde erişebildiği güvenilir bir eğitim yuvası olmak.",
       "mission": "Her öğrencinin potansiyelini keşfetmesine ve akademik hedeflerine ulaşmasına destek olmak. Kaliteli eğitim, bireysel takip ve güçlü motivasyonla fark yaratmak."
     },
-    "why": "Yıldız Eğitim Kurumları Sefaköy; Okul ve ödev destekli eğitim modeliyle, LGS'de ve YKS'de hedef lise ve üniversitelere ulaşmalarını sağlayan yenilikçi bir vizyonla hizmet vermektedir. Deneyimli öğretmen kadrosu ve zengin eğitim materyalleriyle her öğrencinin akademik seviyesini yükseltmeye odaklanırız.",
+    "why": "Yıldız Kurs Sefaköy; Okul ve ödev destekli eğitim modeliyle, LGS'de ve YKS'de hedef lise ve üniversitelere ulaşmalarını sağlayan yenilikçi bir vizyonla hizmet vermektedir. Deneyimli öğretmen kadrosu ve zengin eğitim materyalleriyle her öğrencinin akademik seviyesini yükseltmeye odaklanırız.",
     "zeroError": "Öğrencilerimize özel olarak hazırladığımız sıfır hata kitapçıkları, denemelerde sık yapılan hataları içeren sorular barındırır. Kişiye özel kitaplar ise yapay zeka analizi ile hazırlanmış benzer soruları içerir; öğrencinin eksiklerini hızla kapatır.",
     "programs": [
       {
@@ -1803,7 +1803,7 @@ export const COURSE_CONTENT = {
         "Bireysel Öğrenci Takibi",
         "Küçük Grup Dersleri",
         "Deneyimli Öğretmenler",
-        "%94 LGS Başarı Oranı",
+        "Seviye Belirleme Sınavı",
         "Haftalık LGS Denemesi",
         "Yapay Zeka Destekli Analiz",
         "Rehberlik & Koçluk"
@@ -1857,12 +1857,12 @@ export const COURSE_CONTENT = {
       "tagline": "Halkalı'nın köklü eğitim yuvası.",
       "heading": "Halkalı'da LGS Eğitimi",
       "text": [
-        "Yıldız Eğitim Kurumları Halkalı, bölgedeki öğrencilere kaliteli LGS hazırlık eğitimi sağlamak amacıyla kurulmuştur. Yıllar içinde binlerce öğrencimizi hedef liselerine ulaştırdık."
+        "Yıldız Kurs Halkalı, bölgedeki öğrencilere kaliteli LGS hazırlık eğitimi sağlamak amacıyla kurulmuştur. Yıllar içinde binlerce öğrencimizi hedef liselerine ulaştırdık."
       ],
       "vision": "Halkalı ve çevresindeki öğrencilerin eğitime en kolay ve kaliteli biçimde erişebildiği güvenilir bir eğitim yuvası olmak.",
       "mission": "Her öğrencinin potansiyelini keşfetmesine ve akademik hedeflerine ulaşmasına destek olmak. Kaliteli eğitim, bireysel takip ve güçlü motivasyonla fark yaratmak."
     },
-    "why": "Yıldız Eğitim Kurumları Halkalı, 5. sınıftan 8. sınıfa kadar öğrencilerin LGS'de hedef liselerine ulaşmalarını sağlamak için deneyimli öğretmen kadrosu ve zengin eğitim materyalleriyle akademik seviyelerini yükseltmeye odaklanır. Sunduğumuz programlar öğrencilerin yalnızca teorik bilgi değil, aynı zamanda pratik becerilerini de geliştirerek sınavlarda yüksek başarı göstermelerini sağlar.",
+    "why": "Yıldız Kurs Halkalı, 5. sınıftan 8. sınıfa kadar öğrencilerin LGS'de hedef liselerine ulaşmalarını sağlamak için deneyimli öğretmen kadrosu ve zengin eğitim materyalleriyle akademik seviyelerini yükseltmeye odaklanır. Sunduğumuz programlar öğrencilerin yalnızca teorik bilgi değil, aynı zamanda pratik becerilerini de geliştirerek sınavlarda yüksek başarı göstermelerini sağlar.",
     "zeroError": "Öğrencilerimize özel olarak hazırladığımız sıfır hata kitapçıkları, denemelerde sık yapılan hataları içeren sorular barındırır. Bu kitapçıklar, öğrencilerimizin zayıf olduğu konularda daha fazla çalışma fırsatı sunar. Kişiye özel kitaplar ise denemelerde sık yapılan hataların yapay zeka ile analiz edilerek hazırlanmış benzer sorularını içerir.",
     "programs": [
       {
@@ -2134,7 +2134,7 @@ export const COURSE_CONTENT = {
         "Bireysel Öğrenci Takibi",
         "Küçük Grup Dersleri",
         "Deneyimli Öğretmenler",
-        "%98 Hedef Lise Başarısı",
+        "Seviye Belirleme Sınavı",
         "Haftalık LGS Denemesi",
         "Yapay Zeka Destekli Analiz",
         "Rehberlik & Koçluk"
@@ -2188,7 +2188,7 @@ export const COURSE_CONTENT = {
       "tagline": "Mimaroba’nın köklü eğitim yuvası.",
       "heading": "Mimaroba’da Eğitim",
       "text": [
-        "Eğitim hayatında başarı, doğru rehberlik ve kaliteli bir öğrenim ortamıyla mümkündür. Mimaroba bölgesinde hizmet veren Yıldız Eğitim Kurumları Mimaroba, öğrencilerin akademik hedeflerine ulaşmalarında güçlü bir destek sunmaktadır. Hem bireysel ihtiyaçları karşılayan hem de grup eğitimlerini kapsayan geniş bir yelpazede hizmet sunan kursumuz, öğrencilere hedefledikleri başarıyı yakalamaları için ideal bir ortam yaratır.",
+        "Eğitim hayatında başarı, doğru rehberlik ve kaliteli bir öğrenim ortamıyla mümkündür. Mimaroba bölgesinde hizmet veren Yıldız Kurs Mimaroba, öğrencilerin akademik hedeflerine ulaşmalarında güçlü bir destek sunmaktadır. Hem bireysel ihtiyaçları karşılayan hem de grup eğitimlerini kapsayan geniş bir yelpazede hizmet sunan kursumuz, öğrencilere hedefledikleri başarıyı yakalamaları için ideal bir ortam yaratır.",
         "Sunduğumuz imkânlar arasında bireysel öğrenim yöntemleri, etkili sınav hazırlık programları ve alanında uzman eğitim kadrosu yer alır. Öğrencilerin eksik oldukları konuları belirleyerek onları bu alanlarda geliştirmek için özel ders ve birebir etüt programları düzenlenir."
       ],
       "vision": "Mimaroba ve çevresindeki öğrencilerin eğitime en kolay ve kaliteli biçimde erişebildiği güvenilir bir eğitim yuvası olmak.",

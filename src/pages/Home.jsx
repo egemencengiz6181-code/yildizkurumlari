@@ -50,7 +50,7 @@ function Hero() {
           <SplitWords text="efsanesi." className="hero__title-em" delay={180} />
         </h1>
         <p className="hero__lead">
-          {BRAND.heritage}. Bir TED AD okulu ve beş kurs merkeziyle İstanbul’da eğitimin çıtasını belirliyoruz.
+          {BRAND.heritage}. TED AD kapsamındaki okulumuz ve beş kurs şubemizle İstanbul’da eğitimin çıtasını belirliyoruz.
         </p>
         <div className="hero__ctas">
           <Link to="/kurslar" className="btn btn--gold">
@@ -148,7 +148,7 @@ export default function Home() {
         <div className="container">
           <div className="split-head">
             <SectionHead
-              eyebrow="Yıldız Kursları · 5 Lokasyon"
+              eyebrow="Yıldız Kurs · 5 Şube"
               title={<>İstanbul’un dört bir yanında, <em>aynı disiplin.</em></>}
               lead="Size en yakın kursumuzu seçin. LGS’den YKS’ye, ilkokuldan mezuna."
             />

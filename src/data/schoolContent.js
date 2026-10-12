@@ -5,7 +5,7 @@
  */
 
 export const SCHOOL_ABOUT = {
-  lead: 'Tarabya Yıldız Koleji – TED AD olarak; her öğrencinin kendi yıldızını keşfedeceği bir öğrenme yolculuğu sunuyoruz.',
+  lead: 'Tarabya Yıldız Schools – TED AD olarak; her öğrencinin kendi yıldızını keşfedeceği bir öğrenme yolculuğu sunuyoruz.',
   text: [
     'Ulu Önder Mustafa Kemal Atatürk’ün sözünü rehber alarak; bilgi ve teknoloji çağının ihtiyaçlarını karşılayan, yenilikçi, kapsayıcı ve öğrenci odaklı bir eğitim tasarlıyoruz.',
     'Türk Eğitim Derneği’nin “Cumhuriyetimizin eğitim meşalesi” misyonundan referans alıyor; güçlü bir geçmişin refleksiyle geleceğin eğitim standardını oluşturuyoruz.',
@@ -33,7 +33,7 @@ export const LEVEL_DETAIL = {
   },
   ilkokul: {
     intro: [
-      'Tarabya Yıldız Koleji TED AD ilkokul programı; güçlü bir akademik temelin yanında, öğrencilerimizin öğrenmeyi yaşam boyu süren bir yolculuk olarak benimsemelerini sağlayan anlayışla tasarlanmıştır.',
+      'Tarabya Yıldız Schools TED AD ilkokul programı; güçlü bir akademik temelin yanında, öğrencilerimizin öğrenmeyi yaşam boyu süren bir yolculuk olarak benimsemelerini sağlayan anlayışla tasarlanmıştır.',
       'Millî Eğitim Bakanlığı müfredatını modern eğitim yaklaşımlarıyla zenginleştiriyor; disiplinlerarası projeler, uluslararası standartlarda İngilizce eğitimi, bilim uygulamaları, sanat ve spor etkinlikleriyle öğrencilerimize sadece bilgi değil, keşfetme ve üretme tutkusu kazandırıyoruz.',
       'Bu süreçte öğrencilerimiz, akademik gelişimlerinin ötesinde duygusal, sosyal ve etik değerlerini güçlendirerek; sorumluluk duygusu yüksek, yenilikçi ve yaşam boyu öğrenmeye açık bireyler olarak hayata hazırlanırlar.',
     ],
@@ -77,7 +77,7 @@ export const LEVEL_DETAIL = {
 
 export const STUDENT_PROFILE = {
   intro:
-    'Tarabya Yıldız Koleji öğrencisi; hem akademik hem de sosyal yönden donanımlı, ulusal kimliği güçlü, evrensel değerlere açık, özgüvenli, üretken ve duyarlı bir 21. yüzyıl bireyidir.',
+    'Tarabya Yıldız Schools öğrencisi; hem akademik hem de sosyal yönden donanımlı, ulusal kimliği güçlü, evrensel değerlere açık, özgüvenli, üretken ve duyarlı bir 21. yüzyıl bireyidir.',
   items: [
     { title: 'Araştırma ve Üretme Becerisi', text: 'Öğrenci; öğrenir, sorgular ve yeni ürünler oluşturur.' },
     { title: 'Çift Dilli İletişim Yetkinliği', text: 'Türkçe ve İngilizceyi etkin şekilde kullanabilir.' },

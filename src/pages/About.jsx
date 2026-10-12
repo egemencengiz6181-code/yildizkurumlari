@@ -8,7 +8,7 @@ import { COURSES, SCHOOL } from '../data/site'
 const PRINCIPLES = [
   ['Öğrenci önce gelir', 'Her karar, önce sınıftaki öğrenciye ne kazandıracağı sorusuyla başlar.'],
   ['Öğretmen değerlidir', 'İyi eğitim iyi öğretmenle olur. Kadromuzu seçerken, yetiştirirken ve korurken bunu unutmayız.'],
-  ['Ölçülen gelişir', 'Formatif değerlendirme, deneme analizi ve bireysel takip; tahmine değil veriye dayanırız.'],
+  ['Ölçülen gelişir', 'Formatif değerlendirme, deneme analizi ve bireysel takip; her kararımızı veriye dayandırırız.'],
   ['Aile ortaktır', 'Veli, sürecin paydaşıdır. Şeffaf bilgi akışı, düzenli görüşme ve ebeveyn atölyeleri.'],
   ['Değerler bilgiyle yürür', 'Paylaşımcılık, dürüstlük, sorumluluk ve hoşgörü; akademik başarının ayrılmaz parçası.'],
   ['Gelenek, gelecekle', 'Yarım asırlık birikimi yapay zekâ destekli analiz ve çağdaş pedagojiyle buluştururuz.'],
@@ -19,8 +19,8 @@ export default function About() {
     <>
       <PageHero
         eyebrow="Biz Kimiz"
-        title={<>Sadece <em>eğitim.</em></>}
-        lead="Yıldız Eğitim Kurumları; öğretmen kökenli eğitimcilerin kurduğu, tek işi eğitim olan bir çatı markadır."
+        title={<>Sınıfı bilen <em>eğitimciler.</em></>}
+        lead="Yıldız Eğitim Kurumları; öğretmen kökenli eğitimcilerin kurduğu, yarım asırlık birikimini bir okul ve beş kurs şubesinde sürdüren çatı markadır."
         image="/img/okul/ortaokul-ders.jpg"
       />
 
@@ -33,17 +33,17 @@ export default function About() {
           </div>
           <div className="about-intro__text">
             <p className="about-intro__lead" data-reveal>
-              Eğitim sektörü son yıllarda farklı sektörlerden gelen sermayeyle doldu. Biz o hikâyenin parçası değiliz.
+              Yarım asırdır tek bir alanda uzmanlaşıyoruz: öğrencinin akademik ve kişisel gelişimi.
             </p>
             <p data-reveal>
               Yönetim kurulumuzun tamamı, meslek hayatına öğretmen olarak başlamış eğitimcilerden oluşur. Bir sınıfın nasıl
-              yönetildiğini, bir öğrencinin nasıl motive olduğunu, bir velinin neye ihtiyaç duyduğunu kitaptan değil
-              deneyimden biliriz. Başka bir işimiz, başka bir gündemimiz yok.
+              yönetildiğini, bir öğrencinin nasıl motive olduğunu, bir velinin neye ihtiyaç duyduğunu sahada
+              edindiğimiz deneyimle biliriz. Kurumsal kararlarımızı bu deneyim yönlendirir.
             </p>
             <p data-reveal>
-              Yarım asırlık birikimimizi bugün iki güçlü yapıda sürdürüyoruz: Türk Eğitim Derneği akreditasyonu ve danışmanlığıyla
-              faaliyet gösteren <strong>Tarabya Yıldız Schools</strong> ve İstanbul’un beş noktasında öğrencileri LGS ile YKS’ye hazırlayan
-              <strong> Yıldız Kursları</strong>.
+              Yarım asırlık birikimimizi bugün iki güçlü yapıda sürdürüyoruz: TED Akreditasyon ve Danışmanlık (TED AD)
+              kapsamında faaliyet gösteren <strong>Tarabya Yıldız Schools</strong> ve İstanbul’un beş noktasında öğrencileri LGS ile YKS’ye hazırlayan
+              <strong> Yıldız Kurs</strong>.
             </p>
           </div>
         </div>

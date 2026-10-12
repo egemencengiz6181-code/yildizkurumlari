@@ -19,9 +19,9 @@ export const BRAND = {
 
 export const STATS = [
   { value: 50, suffix: '', label: 'Yıllık eğitim birikimi', note: 'Yarım asır', to: '/hakkimizda' },
-  { value: 1, suffix: '', label: 'TED AD akreditasyonlu okul', note: 'Tarabya', to: '/okul' },
-  { value: 5, suffix: '', label: 'Kurs merkezi', note: 'İstanbul genelinde', to: '/kurslar' },
-  { value: 94, suffix: '%', label: 'Sınav başarı oranı', note: 'LGS & YKS', to: '/kurslar/tarabya#basarilar' },
+  { value: 1, suffix: '', label: 'TED AD kapsamında okul', note: 'Tarabya', to: '/okul' },
+  { value: 5, suffix: '', label: 'Yıldız Kurs şubesi', note: 'İstanbul genelinde', to: '/kurslar' },
+  { value: 8, suffix: '', label: 'Adımlık başarı modeli', note: 'Yıldız Kurs', to: '/basari-modeli' },
 ]
 
 export const SCHOOL = {
@@ -31,7 +31,7 @@ export const SCHOOL = {
   tagline: 'Sınıfın Ötesinde Bir Eğitim',
   motto: 'Geleceğe Yön Veren Çağdaş Eğitimle Hayat Boyu Başarıya Birlikte!',
   intro:
-    'TED Danışmanlığı rehberliğinde Tarabya Yıldız Koleji, her öğrencinin kendi yıldızını keşfedeceği bir öğrenme yolculuğu sunar.',
+    'TED Akreditasyon ve Danışmanlık (TED AD) kapsamında faaliyet gösteren Tarabya Yıldız Schools, her öğrencinin kendi yıldızını keşfedeceği bir öğrenme yolculuğu sunar.',
   ataturk:
     '“Eğitimdir ki, bir milleti ya özgür, bağımsız, şanlı bir topluluk halinde yaşatır; ya da esaret ve sefalete terk eder.”',
   address: 'Ferahevler Mahallesi Nuri Paşa Caddesi No:113/1, Sarıyer / İstanbul',
@@ -101,9 +101,9 @@ export const SCHOOL = {
 
 export const TED = {
   intro:
-    'Okulumuz, Türk Eğitim Derneği akreditasyonu ve danışmanlığı kapsamında faaliyet göstermektedir. Veliler için bu; çocuklarının 98 yıllık köklü bir eğitim geleneğinin standartlarında, düzenli olarak denetlenen ve sürekli geliştirilen bir ortamda eğitim aldığının güvencesidir.',
+    'Okulumuz, Türk Eğitim Derneği’nin TED Akreditasyon ve Danışmanlık (TED AD) programı kapsamında faaliyet göstermektedir. Veliler için bu; çocuklarının 98 yıllık köklü bir eğitim geleneğinin standartlarında, düzenli olarak denetlenen ve sürekli geliştirilen bir ortamda eğitim aldığının güvencesidir.',
   items: [
-    { title: 'TED Akreditasyonu', text: 'Türk Eğitim Derneği akreditasyonu ve danışmanlığı kapsamında eğitim.' },
+    { title: 'TED AD Kapsamı', text: 'Türk Eğitim Derneği’nin Akreditasyon ve Danışmanlık programı kapsamında eğitim.' },
     { title: 'İnsan Kaynakları', text: 'Öğretmen alımları dâhil tüm İK süreçleri TED onayından geçer.' },
     { title: 'Eğitim Standartları', text: 'Müfredat, pedagoji ve ölçme-değerlendirme TED okullarıyla birebir örtüşür.' },
     { title: 'Periyodik Denetim', text: 'TED ekipleri Ankara’dan belirli aralıklarla sistematik denetim yapar.' },
@@ -118,14 +118,14 @@ export const TED = {
   ],
 }
 
-/** Yıldız Eğitim Kurumları kursları — 5 lokasyon */
+/** Yıldız Kurs şubeleri */
 export const COURSES = [
   {
     slug: 'tarabya',
     district: 'Tarabya',
     county: 'Sarıyer',
     side: 'Avrupa Yakası · Boğaz',
-    name: 'Tarabya Kursu',
+    name: 'Yıldız Kurs Tarabya',
     focus: 'LGS & YKS',
     grades: '5 – 12. Sınıf · Mezun',
     blurb: 'Tarabya’dan Türkiye’nin en nitelikli liselerine ve üniversitelerine. Okulumuzla aynı semtte, aynı disiplinle.',
@@ -143,7 +143,7 @@ export const COURSES = [
     district: 'Şirinevler',
     county: 'Bahçelievler',
     side: 'Avrupa Yakası',
-    name: 'Şirinevler Kursu',
+    name: 'Yıldız Kurs Şirinevler',
     focus: 'YKS & LGS',
     grades: '5 – 12. Sınıf · Mezun · Açık Lise',
     blurb: 'Kişiye özel kitap, sıfır hata anlayışı ve Baykuş Kütüphanesi ile YKS’de kanıtlanmış başarı.',
@@ -161,7 +161,7 @@ export const COURSES = [
     district: 'Sefaköy',
     county: 'Küçükçekmece',
     side: 'Avrupa Yakası',
-    name: 'Sefaköy Kursu',
+    name: 'Yıldız Kurs Sefaköy',
     focus: 'LGS & YKS',
     grades: '1 – 12. Sınıf · Mezun',
     blurb: 'İlkokuldan mezuniyete tek çatı. Sağlam temel, kanıtlanmış başarı.',
@@ -179,7 +179,7 @@ export const COURSES = [
     district: 'Halkalı',
     county: 'Küçükçekmece',
     side: 'Avrupa Yakası',
-    name: 'Halkalı Kursu',
+    name: 'Yıldız Kurs Halkalı',
     focus: 'LGS',
     grades: '5 – 8. Sınıf',
     blurb: 'LGS’ye odaklı butik yapı: haftalık deneme, net analizi ve yapay zekâ destekli yol haritası.',
@@ -200,7 +200,7 @@ export const COURSES = [
     district: 'Mimaroba',
     county: 'Büyükçekmece',
     side: 'Avrupa Yakası · Marmara',
-    name: 'Mimaroba Kursu',
+    name: 'Yıldız Kurs Mimaroba',
     focus: 'YKS & LGS',
     grades: '6 – 12. Sınıf · Mezun · Açık Lise',
     blurb: 'Büyükçekmece’nin kalbinde VIP sınıflar ve eğitim koçluğuyla üniversite hedefine.',
@@ -225,9 +225,9 @@ export const COURSE_METHOD = [
 ]
 
 export const TESTIMONIALS = [
-  { quote: '12. sınıf desteğiyle YKS’de hedeflediğim puana ulaştım. Öğretmenlerin gösterdiği özen gerçekten farklıydı.', name: 'Elif K.', role: 'Öğrenci · Şirinevler Kursu' },
-  { quote: 'Oğlum burada mezun oldu ve Cerrahpaşa Tıp’a yerleşti. Bireysel ilgi bizi çok şaşırttı.', name: 'Yusuf E.', role: 'Veli · Şirinevler Kursu' },
-  { quote: 'Deneme Kulübü sınav kaygımı tamamen bitirdi. Rehberlik servisi paha biçilemezdi.', name: 'Selin T.', role: 'Öğrenci · Yıldız Kursları' },
+  { quote: '12. sınıf desteğiyle YKS’de hedeflediğim puana ulaştım. Öğretmenlerin gösterdiği özen gerçekten farklıydı.', name: 'Elif K.', role: 'Öğrenci · Yıldız Kurs Şirinevler' },
+  { quote: 'Oğlum burada mezun oldu ve Cerrahpaşa Tıp’a yerleşti. Bireysel ilgi bizi çok şaşırttı.', name: 'Yusuf E.', role: 'Veli · Yıldız Kurs Şirinevler' },
+  { quote: 'Deneme Kulübü sınav kaygımı tamamen bitirdi. Rehberlik servisi paha biçilemezdi.', name: 'Selin T.', role: 'Öğrenci · Yıldız Kurs' },
 ]
 
 export const NAV = [

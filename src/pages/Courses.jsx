@@ -20,7 +20,7 @@ export function Courses() {
   return (
     <>
       <PageHero
-        eyebrow="Yıldız Kursları"
+        eyebrow="Yıldız Kurs"
         title={<>Disiplin, <em>nesilden nesile.</em></>}
         lead="Tarabya, Şirinevler, Sefaköy, Halkalı ve Mimaroba’da; LGS ve YKS’ye hazırlıkta nesiller yetiştiren sınav disiplini; Yıldız Eğitim Kurumları güvencesiyle."
         image="/img/kurs/etut-salonu.jpg"
@@ -30,7 +30,7 @@ export function Courses() {
 
       <section className="section">
         <div className="container">
-          <SectionHead eyebrow="5 Lokasyon" title={<>Size en yakın <em>Yıldız.</em></>} />
+          <SectionHead eyebrow="5 Şube" title={<>Size en yakın <em>Yıldız.</em></>} />
           <CourseIndex />
         </div>
       </section>
@@ -98,7 +98,7 @@ export function CourseDetail() {
 
   return (
     <>
-      <PageHero eyebrow={`Yıldız Eğitim Kurumları · ${c.side}`} title={<>{c.district} <em>Kursu</em></>} lead={c.blurb} image={COURSE_IMG[c.slug]}>
+      <PageHero eyebrow={`Yıldız Eğitim Kurumları · ${c.side}`} title={<>Yıldız Kurs <em>{c.district}</em></>} lead={c.blurb} image={COURSE_IMG[c.slug]}>
         <div className="phero__chips">
           <a href="#programlar" className="chip chip--light chip--link">{c.focus} programları <Arrow /></a>
           <a href="#programlar" className="chip chip--light chip--link">{c.grades}</a>
@@ -251,7 +251,7 @@ export function CourseDetail() {
 
       <section className="section section--paper">
         <div className="container">
-          <SectionHead eyebrow="Diğer Kurslarımız" title={<>Aynı disiplin, <em>farklı semtler.</em></>} />
+          <SectionHead eyebrow="Diğer Şubelerimiz" title={<>Aynı disiplin, <em>farklı semtler.</em></>} />
           <div className="others">
             {others.map((o) => (
               <Link key={o.slug} to={`/kurslar/${o.slug}`} className="other" data-reveal>

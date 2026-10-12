@@ -16,7 +16,7 @@ export function SectionHead({ eyebrow, title, lead, light = false, align = 'left
   )
 }
 
-/* ── Sadece Eğitim manifestosu ───────────────────────── */
+/* ── Manifesto ──────────────────────────────────────── */
 export function Manifesto() {
   const pillars = [
     {
@@ -26,8 +26,8 @@ export function Manifesto() {
     },
     {
       n: '02',
-      title: 'Tek işimiz eğitim',
-      text: 'Başka sektörden gelen sermaye, yan iş ya da yatırım portföyü değiliz. İnşaat yapmıyoruz, ticaret yapmıyoruz. Sadece eğitim.',
+      title: 'Tek odak: öğrenci',
+      text: 'Kadromuzu, zamanımızı ve yatırımımızı öğrencinin gelişimine ayırırız. Ölçme-değerlendirmeden rehberliğe her süreç, eğitimcilerin uzmanlığıyla tasarlanır.',
     },
     {
       n: '03',
@@ -41,9 +41,9 @@ export function Manifesto() {
         <div className="manifesto__top">
           <p className="eyebrow" data-reveal>Manifesto</p>
           <h2 className="manifesto__quote" data-reveal>
-            Eğitime sonradan <em>gelmedik.</em>
+            Sınıftan <em>geldik.</em>
             <br />
-            Eğitimden <em>geldik.</em>
+            Eğitimle <em>büyüyoruz.</em>
           </h2>
         </div>
         <div className="manifesto__grid">
@@ -96,7 +96,7 @@ export function TwoWorlds() {
             <div className="world__body">
               <span className="world__tag">Okul · TED AD</span>
               <h3 className="world__title">Tarabya Yıldız Schools</h3>
-              <p className="world__text">Okul öncesi, ilkokul ve ortaokul. Türk Eğitim Derneği akreditasyonu ve danışmanlığıyla, Boğaz’ın kıyısında çift dilli eğitim.</p>
+              <p className="world__text">Okul öncesi, ilkokul ve ortaokul. TED Akreditasyon ve Danışmanlık (TED AD) kapsamında, Boğaz’ın kıyısında çift dilli eğitim.</p>
               <span className="world__cta">Okulu keşfedin <ArrowUpRight /></span>
             </div>
           </Link>
@@ -106,7 +106,7 @@ export function TwoWorlds() {
             </div>
             <div className="world__body">
               <span className="world__tag">Kurslar · LGS & YKS</span>
-              <h3 className="world__title">Yıldız Kursları</h3>
+              <h3 className="world__title">Yıldız Kurs</h3>
               <p className="world__text">Tarabya, Şirinevler, Sefaköy, Halkalı ve Mimaroba. Nesiller yetiştiren sınav disiplini, şimdi yapay zekâ destekli analizle daha da güçlü.</p>
               <span className="world__cta">Kursları keşfedin <ArrowUpRight /></span>
             </div>
@@ -136,17 +136,17 @@ export function Compass({ link = true }) {
         <figure className="compass__poster" data-reveal>
           <img
             src="/img/okul/pusula.jpg"
-            alt={`Logomuzdaki yıldız, sadece bir şekil değil, eğitimdeki pusulamız: ${COMPASS.map((c, i) => `${i + 1}. ${c}`).join(', ')}. Tarabya Yıldız Koleji — Her yönüyle geleceğe hazır bir nesil yetiştiriyoruz.`}
+            alt={`Logomuzdaki yıldız, eğitimdeki pusulamız: ${COMPASS.map((c, i) => `${i + 1}. ${c}`).join(', ')}. Tarabya Yıldız Schools — Her yönüyle geleceğe hazır bir nesil yetiştiriyoruz.`}
             loading="lazy"
           />
         </figure>
         <div className="compass__body">
           <p className="eyebrow" data-reveal>Pusulamız</p>
           <h2 className="compass__title" data-reveal>
-            Logomuzdaki yıldız, sadece bir şekil değil; <em>eğitimdeki pusulamız.</em>
+            Logomuzdaki yıldız, <em>eğitimdeki pusulamız.</em>
           </h2>
           <p className="compass__text" data-reveal>
-            Tarabya Yıldız Koleji’nin sekiz kollu yıldızının her kolu, eğitim anlayışımızın bir yönünü gösterir. Akademik
+            Logomuzdaki sekiz kollu yıldızın her kolu, eğitim anlayışımızın bir yönünü gösterir. Akademik
             başarıdan değerlere, kampüsten dünyaya açılan vizyona kadar her yönüyle geleceğe hazır bir nesil yetiştiriyoruz.
           </p>
           <ol className="compass__list" data-reveal>
@@ -178,7 +178,7 @@ export function TedBlock({ full = false }) {
       <div className="container">
         <div className="ted__head">
           <div data-reveal>
-            <p className="eyebrow eyebrow--light">TED Akreditasyon & Danışmanlık</p>
+            <p className="eyebrow eyebrow--light">TED Akreditasyon ve Danışmanlık</p>
             <h2 className="ted__title">
               98 yıllık bir geleneğin <em>güvencesiyle.</em>
             </h2>
@@ -426,7 +426,7 @@ export function EnrollSection({ defaultUnit }) {
           </p>
           <div className="cta__lines">
             <a href={`tel:${BRAND.phoneHref}`}>{BRAND.phone}<small>Tarabya Yıldız Schools</small></a>
-            <a href={`tel:${COURSES[0].phones[0].href}`}>{COURSES[0].phones[0].label}<small>Yıldız Kursları</small></a>
+            <a href={`tel:${COURSES[0].phones[0].href}`}>{COURSES[0].phones[0].label}<small>Yıldız Kurs</small></a>
           </div>
         </div>
         <div data-reveal style={{ '--d': '120ms' }}>

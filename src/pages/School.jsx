@@ -73,7 +73,7 @@ export default function School() {
   return (
     <>
       <PageHero
-        eyebrow="Okul · TED Akreditasyon & Danışmanlık"
+        eyebrow="Okul · TED Akreditasyon ve Danışmanlık"
         title={<>Tarabya Yıldız <em>Schools</em></>}
         lead={SCHOOL.intro}
         image="/img/okul/bina.jpg"
