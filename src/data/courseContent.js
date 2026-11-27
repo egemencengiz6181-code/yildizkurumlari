@@ -10,12 +10,12 @@ export const COURSE_CONTENT = {
       "tagline": "Tarabya'nın köklü eğitim yuvası.",
       "heading": "Tarabya'da Eğitim",
       "text": [
-        "Yıldız Kurs Tarabya, Sarıyer'deki öğrencilere kaliteli LGS ve YKS hazırlık eğitimi sağlamak amacıyla kurulmuştur. Yıllar içinde binlerce öğrencimizi hedef liselerine ve üniversitelerine ulaştırdık."
+        "Tarabya Yıldız Kurs Tarabya, Sarıyer'deki öğrencilere kaliteli LGS ve YKS hazırlık eğitimi sağlamak amacıyla kurulmuştur. Yıllar içinde binlerce öğrencimizi hedef liselerine ve üniversitelerine ulaştırdık."
       ],
       "vision": "Tarabya ve çevresindeki öğrencilerin eğitime en kolay ve kaliteli biçimde erişebildiği güvenilir bir eğitim yuvası olmak.",
       "mission": "Her öğrencinin potansiyelini keşfetmesine ve akademik hedeflerine ulaşmasına destek olmak. Kaliteli eğitim, bireysel takip ve güçlü motivasyonla fark yaratmak."
     },
-    "why": "Yıldız Kurs Tarabya, 6. sınıftan mezunlara kadar LGS ve YKS'de hedef okullara ulaşmak için deneyimli öğretmen kadrosu ve zengin eğitim materyalleriyle akademik seviyeyi yükseltmeye odaklanır. Sunduğumuz programlar öğrencilerin yalnızca teorik bilgi değil, aynı zamanda pratik becerilerini de geliştirerek sınavlarda yüksek başarı göstermelerini sağlar.",
+    "why": "Tarabya Yıldız Kurs Tarabya, 6. sınıftan mezunlara kadar LGS ve YKS'de hedef okullara ulaşmak için deneyimli öğretmen kadrosu ve zengin eğitim materyalleriyle akademik seviyeyi yükseltmeye odaklanır. Sunduğumuz programlar öğrencilerin yalnızca teorik bilgi değil, aynı zamanda pratik becerilerini de geliştirerek sınavlarda yüksek başarı göstermelerini sağlar.",
     "zeroError": "Öğrencilerimize özel olarak hazırladığımız sıfır hata kitapçıkları, denemelerde sık yapılan hataları içeren sorular barındırır. Bu kitapçıklar, öğrencilerimizin zayıf olduğu konularda daha fazla çalışma fırsatı sunar. Kişiye özel kitaplar ise denemelerde sık yapılan hataların yapay zeka ile analiz edilerek hazırlanmış benzer sorularını içerir.",
     "programs": [
       {
@@ -686,12 +686,12 @@ export const COURSE_CONTENT = {
       "tagline": "Şirinevler'in köklü eğitim yuvası.",
       "heading": "Şirinevler'de YKS Eğitimi",
       "text": [
-        "Yıldız Kurs Şirinevler, bölgedeki öğrencilere kaliteli YKS hazırlık eğitimi sağlamak amacıyla kurulmuştur. Yıllar içinde binlerce öğrencimizi hedef üniversitelerine ulaştırdık."
+        "Tarabya Yıldız Kurs Şirinevler, bölgedeki öğrencilere kaliteli YKS hazırlık eğitimi sağlamak amacıyla kurulmuştur. Yıllar içinde binlerce öğrencimizi hedef üniversitelerine ulaştırdık."
       ],
       "vision": "Şirinevler ve çevresindeki öğrencilerin eğitime en kolay ve kaliteli biçimde erişebildiği güvenilir bir eğitim yuvası olmak.",
       "mission": "Her öğrencinin potansiyelini keşfetmesine ve akademik hedeflerine ulaşmasına destek olmak. Kaliteli eğitim, bireysel takip ve güçlü motivasyonla fark yaratmak."
     },
-    "why": "Yıldız Kurs Şirinevler, 9. sınıftan mezun seviyesine kadar öğrencilerin YKS’de hedef üniversitelerine ulaşmalarını sağlamak için deneyimli öğretmen kadrosu ve zengin eğitim materyalleriyle akademik seviyelerini yükseltmeye odaklanır. Sunduğumuz programlar öğrencilerin yalnızca teorik bilgi değil, aynı zamanda pratik becerilerini de geliştirerek sınavlarda yüksek başarı göstermelerini sağlar.",
+    "why": "Tarabya Yıldız Kurs Şirinevler, 9. sınıftan mezun seviyesine kadar öğrencilerin YKS’de hedef üniversitelerine ulaşmalarını sağlamak için deneyimli öğretmen kadrosu ve zengin eğitim materyalleriyle akademik seviyelerini yükseltmeye odaklanır. Sunduğumuz programlar öğrencilerin yalnızca teorik bilgi değil, aynı zamanda pratik becerilerini de geliştirerek sınavlarda yüksek başarı göstermelerini sağlar.",
     "zeroError": "Öğrencilerimize özel olarak hazırladığımız sıfır hata kitapçıkları, denemelerde sık yapılan hataları içeren sorular barındırır. Bu kitapçıklar, öğrencilerimizin zayıf olduğu konularda daha fazla çalışma fırsatı sunar. Kişiye özel kitaplar ise denemelerde sık yapılan hataların yapay zeka ile analiz edilerek hazırlanmış benzer sorularını içerir.",
     "programs": [
       {
@@ -1276,12 +1276,12 @@ export const COURSE_CONTENT = {
       "tagline": "Sefaköy'ün köklü eğitim yuvası.",
       "heading": "Sefaköy'de LGS ve YKS Eğitimi",
       "text": [
-        "Yıldız Kurs Sefaköy; Okul ve ödev destekli eğitim modeliyle, LGS'de ve YKS'de hedef lise ve üniversitelere ulaşmalarını sağlayan yenilikçi bir vizyonla hizmet vermektedir. Deneyimli öğretmen kadrosu ve zengin eğitim materyalleriyle her öğrencinin akademik seviyesini yükseltmeye odaklanırız."
+        "Tarabya Yıldız Kurs Sefaköy; Okul ve ödev destekli eğitim modeliyle, LGS'de ve YKS'de hedef lise ve üniversitelere ulaşmalarını sağlayan yenilikçi bir vizyonla hizmet vermektedir. Deneyimli öğretmen kadrosu ve zengin eğitim materyalleriyle her öğrencinin akademik seviyesini yükseltmeye odaklanırız."
       ],
       "vision": "Sefaköy ve çevresindeki öğrencilerin eğitime en kolay ve kaliteli biçimde erişebildiği güvenilir bir eğitim yuvası olmak.",
       "mission": "Her öğrencinin potansiyelini keşfetmesine ve akademik hedeflerine ulaşmasına destek olmak. Kaliteli eğitim, bireysel takip ve güçlü motivasyonla fark yaratmak."
     },
-    "why": "Yıldız Kurs Sefaköy; Okul ve ödev destekli eğitim modeliyle, LGS'de ve YKS'de hedef lise ve üniversitelere ulaşmalarını sağlayan yenilikçi bir vizyonla hizmet vermektedir. Deneyimli öğretmen kadrosu ve zengin eğitim materyalleriyle her öğrencinin akademik seviyesini yükseltmeye odaklanırız.",
+    "why": "Tarabya Yıldız Kurs Sefaköy; Okul ve ödev destekli eğitim modeliyle, LGS'de ve YKS'de hedef lise ve üniversitelere ulaşmalarını sağlayan yenilikçi bir vizyonla hizmet vermektedir. Deneyimli öğretmen kadrosu ve zengin eğitim materyalleriyle her öğrencinin akademik seviyesini yükseltmeye odaklanırız.",
     "zeroError": "Öğrencilerimize özel olarak hazırladığımız sıfır hata kitapçıkları, denemelerde sık yapılan hataları içeren sorular barındırır. Kişiye özel kitaplar ise yapay zeka analizi ile hazırlanmış benzer soruları içerir; öğrencinin eksiklerini hızla kapatır.",
     "programs": [
       {
@@ -1857,12 +1857,12 @@ export const COURSE_CONTENT = {
       "tagline": "Halkalı'nın köklü eğitim yuvası.",
       "heading": "Halkalı'da LGS Eğitimi",
       "text": [
-        "Yıldız Kurs Halkalı, bölgedeki öğrencilere kaliteli LGS hazırlık eğitimi sağlamak amacıyla kurulmuştur. Yıllar içinde binlerce öğrencimizi hedef liselerine ulaştırdık."
+        "Tarabya Yıldız Kurs Halkalı, bölgedeki öğrencilere kaliteli LGS hazırlık eğitimi sağlamak amacıyla kurulmuştur. Yıllar içinde binlerce öğrencimizi hedef liselerine ulaştırdık."
       ],
       "vision": "Halkalı ve çevresindeki öğrencilerin eğitime en kolay ve kaliteli biçimde erişebildiği güvenilir bir eğitim yuvası olmak.",
       "mission": "Her öğrencinin potansiyelini keşfetmesine ve akademik hedeflerine ulaşmasına destek olmak. Kaliteli eğitim, bireysel takip ve güçlü motivasyonla fark yaratmak."
     },
-    "why": "Yıldız Kurs Halkalı, 5. sınıftan 8. sınıfa kadar öğrencilerin LGS'de hedef liselerine ulaşmalarını sağlamak için deneyimli öğretmen kadrosu ve zengin eğitim materyalleriyle akademik seviyelerini yükseltmeye odaklanır. Sunduğumuz programlar öğrencilerin yalnızca teorik bilgi değil, aynı zamanda pratik becerilerini de geliştirerek sınavlarda yüksek başarı göstermelerini sağlar.",
+    "why": "Tarabya Yıldız Kurs Halkalı, 5. sınıftan 8. sınıfa kadar öğrencilerin LGS'de hedef liselerine ulaşmalarını sağlamak için deneyimli öğretmen kadrosu ve zengin eğitim materyalleriyle akademik seviyelerini yükseltmeye odaklanır. Sunduğumuz programlar öğrencilerin yalnızca teorik bilgi değil, aynı zamanda pratik becerilerini de geliştirerek sınavlarda yüksek başarı göstermelerini sağlar.",
     "zeroError": "Öğrencilerimize özel olarak hazırladığımız sıfır hata kitapçıkları, denemelerde sık yapılan hataları içeren sorular barındırır. Bu kitapçıklar, öğrencilerimizin zayıf olduğu konularda daha fazla çalışma fırsatı sunar. Kişiye özel kitaplar ise denemelerde sık yapılan hataların yapay zeka ile analiz edilerek hazırlanmış benzer sorularını içerir.",
     "programs": [
       {
@@ -2188,7 +2188,7 @@ export const COURSE_CONTENT = {
       "tagline": "Mimaroba’nın köklü eğitim yuvası.",
       "heading": "Mimaroba’da Eğitim",
       "text": [
-        "Eğitim hayatında başarı, doğru rehberlik ve kaliteli bir öğrenim ortamıyla mümkündür. Mimaroba bölgesinde hizmet veren Yıldız Kurs Mimaroba, öğrencilerin akademik hedeflerine ulaşmalarında güçlü bir destek sunmaktadır. Hem bireysel ihtiyaçları karşılayan hem de grup eğitimlerini kapsayan geniş bir yelpazede hizmet sunan kursumuz, öğrencilere hedefledikleri başarıyı yakalamaları için ideal bir ortam yaratır.",
+        "Eğitim hayatında başarı, doğru rehberlik ve kaliteli bir öğrenim ortamıyla mümkündür. Mimaroba bölgesinde hizmet veren Tarabya Yıldız Kurs Mimaroba, öğrencilerin akademik hedeflerine ulaşmalarında güçlü bir destek sunmaktadır. Hem bireysel ihtiyaçları karşılayan hem de grup eğitimlerini kapsayan geniş bir yelpazede hizmet sunan kursumuz, öğrencilere hedefledikleri başarıyı yakalamaları için ideal bir ortam yaratır.",
         "Sunduğumuz imkânlar arasında bireysel öğrenim yöntemleri, etkili sınav hazırlık programları ve alanında uzman eğitim kadrosu yer alır. Öğrencilerin eksik oldukları konuları belirleyerek onları bu alanlarda geliştirmek için özel ders ve birebir etüt programları düzenlenir."
       ],
       "vision": "Mimaroba ve çevresindeki öğrencilerin eğitime en kolay ve kaliteli biçimde erişebildiği güvenilir bir eğitim yuvası olmak.",

@@ -2219,6 +2219,19 @@ em {
   margin-top: 34px;
   color: var(--white);
 }
+.course__logo--img,
+.phero__brand--img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.course__logo--img {
+  max-width: 170px;
+}
+.phero__brand--img {
+  max-width: 130px;
+  margin-bottom: 8px;
+}
 .course__card h3 {
   margin: 18px 0 24px;
   font-family: var(--f-display);

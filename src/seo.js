@@ -133,7 +133,7 @@ export function getSeo(pathname, origin = '') {
     page = {
       title: `${SITE_NAME} | Başarmak Sanattır — Okul, LGS ve YKS Kursları İstanbul`,
       description:
-        'Eğitimde yarım asırlık tecrübe. TED Akreditasyon ve Danışmanlık (TED AD) kapsamındaki Tarabya Yıldız Schools ve Yıldız Kurs Tarabya, Şirinevler, Sefaköy, Halkalı, Mimaroba şubeleri. Öğretmen kökenli yönetim.',
+        'Eğitimde yarım asırlık tecrübe. TED Akreditasyon ve Danışmanlık (TED AD) kapsamındaki Tarabya Yıldız Schools, Tarabya Yıldız Kurs Tarabya, Şirinevler, Sefaköy, Halkalı ve Mimaroba şubeleri. Öğretmen kökenli yönetim.',
       ld: [org],
     }
   } else if (path === '/hakkimizda') {

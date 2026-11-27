@@ -98,7 +98,8 @@ export function CourseDetail() {
 
   return (
     <>
-      <PageHero eyebrow={`Yıldız Eğitim Kurumları · ${c.side}`} title={<>Yıldız Kurs <em>{c.district}</em></>} lead={c.blurb} image={COURSE_IMG[c.slug]}>
+      <PageHero eyebrow={`Yıldız Eğitim Kurumları · ${c.side}`} title={<>{c.brand || 'Yıldız Kurs'} <em>{c.district}</em></>} lead={c.blurb} image={COURSE_IMG[c.slug]}>
+        {c.logoLight && <img src={c.logoLight} alt={`${c.name} logosu`} className="phero__brand phero__brand--img" width="576" height="808" />}
         <div className="phero__chips">
           <a href="#programlar" className="chip chip--light chip--link">{c.focus} programları <Arrow /></a>
           <a href="#programlar" className="chip chip--light chip--link">{c.grades}</a>
@@ -130,7 +131,9 @@ export function CourseDetail() {
           </div>
 
           <aside className="course__card" data-reveal>
-            <Logo stacked kind="kurs" className="course__logo" />
+            {c.logo
+              ? <img src={c.logo} alt={`${c.name} logosu`} className="course__logo course__logo--img" width="576" height="808" loading="lazy" />
+              : <Logo stacked kind="kurs" className="course__logo" />}
             <h3>{c.name}</h3>
             <ul className="contact-list">
               <li><Pin /> {c.address}</li>
